@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T15:54:55.557742Z",
+  "generated_at": "2026-07-12T19:11:49.445413Z",
   "prediction_date": "2026-07-10",
   "ml": {
     "py_day_quality": 0,
@@ -58,5 +58,15 @@
       "max_pain": 33943
     },
     "needs_manual_override": false
+  },
+  "judas": {
+    "generated_at": "2026-07-12T19:03:23.518521Z",
+    "ok": false,
+    "error": "Session NY pas encore ouverte ou pas assez de données"
+  },
+  "postlunch": {
+    "generated_at": "2026-07-12T19:07:04.905063Z",
+    "ok": false,
+    "error": "Pas de données après NY open"
   }
 }
