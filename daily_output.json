@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-07-12T15:54:55.557742Z",
+  "prediction_date": "2026-07-10",
+  "ml": {
+    "py_day_quality": 0,
+    "py_day_type": 4,
+    "py_bias": -1,
+    "py_bias_strength": 30,
+    "py_confidence": 49,
+    "py_first_move": 0,
+    "py_first_amp_min": 30,
+    "py_first_amp_max": 60,
+    "meta": {
+      "bull_prob": 34.63,
+      "bear_prob": 65.37,
+      "bias_label": "BEARISH",
+      "type_proba_max": 68.26
+    }
+  },
+  "prices": {
+    "nas100": 30032.25,
+    "qqq": 725.530029296875,
+    "vix": 15.039999961853027,
+    "ratio": 41.39353133199025
+  },
+  "news": {
+    "ok": true,
+    "count": 0,
+    "list": []
+  },
+  "overnight": {
+    "ok": true,
+    "bias": "Up",
+    "diff": 95.25
+  },
+  "cot": {
+    "ok": false,
+    "bias": 0,
+    "strength": 50,
+    "needs_manual_override": true,
+    "error": "Toutes les URLs CFTC ont échoué (probablement weekend ou site down)"
+  },
+  "options": {
+    "ok": true,
+    "expiration": "2026-07-24",
+    "qqq_strikes": {
+      "cw1": 735.0,
+      "cw2": 780.0,
+      "pw1": 650.0,
+      "pw2": 685.0,
+      "max_pain": 820.0
+    },
+    "nas100_strikes": {
+      "cw1": 30424,
+      "cw2": 32287,
+      "pw1": 26906,
+      "pw2": 28355,
+      "max_pain": 33943
+    },
+    "needs_manual_override": false
+  }
+}
