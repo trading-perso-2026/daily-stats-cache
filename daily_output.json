@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T21:13:31.723901Z",
+  "generated_at": "2026-07-13T21:30:56.598231Z",
   "prediction_date": "2026-07-13",
   "ml": {
     "py_day_quality": 0,
@@ -83,7 +83,7 @@
     "tv_update1_scenario_holds": true
   },
   "postlunch": {
-    "generated_at": "2026-07-13T21:13:31.329929Z",
+    "generated_at": "2026-07-13T21:30:56.235208Z",
     "ok": true,
     "prix_open_ny": 29710.0,
     "prix_lunch": 29611.25,
