@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T12:27:38.662333Z",
+  "generated_at": "2026-07-13T14:43:35.557453Z",
   "prediction_date": "2026-07-13",
   "ml": {
     "py_day_quality": 0,
@@ -60,9 +60,27 @@
     "needs_manual_override": false
   },
   "judas": {
-    "generated_at": "2026-07-12T19:03:23.518521Z",
-    "ok": false,
-    "error": "Session NY pas encore ouverte ou pas assez de données"
+    "generated_at": "2026-07-13T14:43:34.930124Z",
+    "ok": true,
+    "prix_open_ny": 29710.0,
+    "prix_extreme": 29518.0,
+    "prix_actuel": 29693.75,
+    "mouvement_initial": -192.0,
+    "amplitude": 192.0,
+    "direction": -1,
+    "recuperation": 175.8,
+    "recuperation_pct": 91.5,
+    "judas_confirme": true,
+    "biais_ml_predit": 1,
+    "atr_daily": 729.9,
+    "seuil_invalidation": 365.0,
+    "mouvement_total": -16.2,
+    "scenario_holds": true,
+    "tv_update1_active": true,
+    "tv_update1_judas_confirmed": true,
+    "tv_update1_judas_dir": -1,
+    "tv_update1_judas_amp": 192,
+    "tv_update1_scenario_holds": true
   },
   "postlunch": {
     "generated_at": "2026-07-12T19:07:04.905063Z",
