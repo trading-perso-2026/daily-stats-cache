@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T18:38:58.719232Z",
+  "generated_at": "2026-07-15T20:45:07.317732Z",
   "prediction_date": "2026-07-15",
   "ml": {
     "py_day_quality": 0,
@@ -105,22 +105,22 @@
     "tv_update1_scenario_holds": true
   },
   "postlunch": {
-    "generated_at": "2026-07-14T21:33:26.948417Z",
+    "generated_at": "2026-07-15T20:45:06.132517Z",
     "ok": true,
-    "prix_open_ny": 29811.0,
-    "prix_lunch": 29786.0,
-    "prix_current": 29793.5,
-    "mouvement_am": -25.0,
-    "mouvement_pm": 7.5,
-    "amplitude_pm": 7.5,
+    "prix_open_ny": 29955.25,
+    "prix_lunch": 29580.25,
+    "prix_current": 29708.0,
+    "mouvement_am": -375.0,
+    "mouvement_pm": 127.8,
+    "amplitude_pm": 127.8,
     "sens_am": -1,
     "sens_pm": 1,
-    "type_pm": "range",
-    "explication": "Amplitude PM (8 pts) < 30 → RANGE",
-    "target_pm": 29794,
-    "doit_activer": false,
-    "tv_update2_active": false,
-    "tv_update2_type": "range",
-    "tv_update2_target_pm": 29794
+    "type_pm": "reversal",
+    "explication": "PM dans le sens OPPOSÉ à AM, amplitude 128 > 50 → REVERSAL",
+    "target_pm": 29768,
+    "doit_activer": true,
+    "tv_update2_active": true,
+    "tv_update2_type": "reversal",
+    "tv_update2_target_pm": 29768
   }
 }
