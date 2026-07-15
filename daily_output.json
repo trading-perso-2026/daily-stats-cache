@@ -1,57 +1,43 @@
 {
-  "generated_at": "2026-07-14T21:33:27.478416Z",
-  "prediction_date": "2026-07-14",
+  "generated_at": "2026-07-15T08:28:46.076199Z",
+  "prediction_date": "2026-07-15",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": -1,
-    "py_bias_strength": 14,
+    "py_bias": 0,
+    "py_bias_strength": 9,
     "py_confidence": 33,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 42.65,
-      "bear_prob": 57.35,
-      "bias_label": "BEARISH",
-      "type_proba_max": 53.98
+      "bull_prob": 45.42,
+      "bear_prob": 54.58,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 57.07
     }
   },
   "prices": {
-    "nas100": 29831.5,
-    "qqq": 711.719970703125,
-    "vix": 16.670000076293945,
-    "ratio": 41.91465917491223
+    "nas100": 29920.75,
+    "qqq": 719.6799926757812,
+    "vix": 16.31999969482422,
+    "ratio": 41.57507545645974
   },
   "news": {
     "ok": true,
-    "count": 5,
+    "count": 3,
     "list": [
       {
-        "title": "Core CPI m/m",
-        "impact": 3,
-        "flag": "🔥",
+        "title": "Core PPI m/m",
+        "impact": 2,
+        "flag": "🔴",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       },
       {
-        "title": "Core CPI y/y",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "CPI m/m",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "CPI y/y",
-        "impact": 3,
-        "flag": "🔥",
+        "title": "PPI m/m",
+        "impact": 2,
+        "flag": "🔴",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       },
@@ -67,7 +53,7 @@
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 355.75
+    "diff": 130.5
   },
   "cot": {
     "ok": false,
@@ -80,18 +66,18 @@
     "ok": true,
     "expiration": "2026-07-17",
     "qqq_strikes": {
-      "cw1": 800.0,
-      "cw2": 711.0,
-      "pw1": 675.0,
-      "pw2": 700.0,
-      "max_pain": 714.0
+      "cw1": 315.0,
+      "cw2": 380.0,
+      "pw1": 300.0,
+      "pw2": 305.0,
+      "max_pain": 300.0
     },
     "nas100_strikes": {
-      "cw1": 33532,
-      "cw2": 29801,
-      "pw1": 28292,
-      "pw2": 29340,
-      "max_pain": 29927
+      "cw1": 13096,
+      "cw2": 15799,
+      "pw1": 12473,
+      "pw2": 12680,
+      "max_pain": 12473
     },
     "needs_manual_override": false
   },
