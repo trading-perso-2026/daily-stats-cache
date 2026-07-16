@@ -1,59 +1,73 @@
 {
-  "generated_at": "2026-07-15T21:32:54.364010Z",
-  "prediction_date": "2026-07-15",
+  "generated_at": "2026-07-16T07:03:15.654065Z",
+  "prediction_date": "2026-07-16",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": -1,
-    "py_bias_strength": 11,
-    "py_confidence": 36,
+    "py_bias_strength": 43,
+    "py_confidence": 45,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 44.4,
-      "bear_prob": 55.6,
+      "bull_prob": 28.1,
+      "bear_prob": 71.9,
       "bias_label": "BEARISH",
-      "type_proba_max": 61.39
+      "type_proba_max": 48.06
     }
   },
   "prices": {
-    "nas100": 29964.0,
-    "qqq": 719.6799926757812,
-    "vix": 16.15999984741211,
-    "ratio": 41.635171610917496
+    "nas100": 29675.0,
+    "qqq": 717.6900024414062,
+    "vix": 15.670000076293945,
+    "ratio": 41.34793559761581
   },
   "news": {
     "ok": true,
-    "count": 3,
+    "count": 5,
     "list": [
       {
-        "title": "Core PPI m/m",
-        "impact": 2,
-        "flag": "🔴",
+        "title": "Core Retail Sales m/m",
+        "impact": 1,
+        "flag": "🟠",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       },
       {
-        "title": "PPI m/m",
-        "impact": 2,
-        "flag": "🔴",
+        "title": "Philly Fed Manufacturing Index",
+        "impact": 1,
+        "flag": "🟠",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       },
       {
-        "title": "Fed Chairman Warsh Testifies",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
+        "title": "Retail Sales m/m",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Unemployment Claims",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "President Trump Speaks",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "21:00",
+        "hhmm_utc": 2100
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 176.5
+    "bias": "Flat",
+    "diff": -18.25
   },
   "cot": {
     "ok": false,
@@ -66,18 +80,18 @@
     "ok": true,
     "expiration": "2026-07-17",
     "qqq_strikes": {
-      "cw1": 800.0,
-      "cw2": 750.0,
-      "pw1": 630.0,
-      "pw2": 675.0,
-      "max_pain": 713.0
+      "cw1": 885.0,
+      "cw2": 315.0,
+      "pw1": 300.0,
+      "pw2": 305.0,
+      "max_pain": 300.0
     },
     "nas100_strikes": {
-      "cw1": 33308,
-      "cw2": 31226,
-      "pw1": 26230,
-      "pw2": 28104,
-      "max_pain": 29686
+      "cw1": 36593,
+      "cw2": 13025,
+      "pw1": 12404,
+      "pw2": 12611,
+      "max_pain": 12404
     },
     "needs_manual_override": false
   },
