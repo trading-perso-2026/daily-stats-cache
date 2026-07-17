@@ -1,73 +1,52 @@
 {
-  "generated_at": "2026-07-16T21:47:12.647563Z",
-  "prediction_date": "2026-07-16",
+  "generated_at": "2026-07-17T11:01:05.101702Z",
+  "prediction_date": "2026-07-17",
   "ml": {
     "py_day_quality": 0,
-    "py_day_type": 4,
+    "py_day_type": 2,
     "py_bias": 1,
-    "py_bias_strength": 18,
-    "py_confidence": 31,
-    "py_first_move": 0,
-    "py_first_amp_min": 30,
-    "py_first_amp_max": 60,
+    "py_bias_strength": 32,
+    "py_confidence": 35,
+    "py_first_move": -1,
+    "py_first_amp_min": 80,
+    "py_first_amp_max": 130,
     "meta": {
-      "bull_prob": 59.32,
-      "bear_prob": 40.68,
+      "bull_prob": 66.07,
+      "bear_prob": 33.93,
       "bias_label": "BULLISH",
-      "type_proba_max": 44.91
+      "type_proba_max": 39.43
     }
   },
   "prices": {
-    "nas100": 29394.25,
-    "qqq": 717.6900024414062,
-    "vix": 16.309999465942383,
-    "ratio": 40.95674998956086
+    "nas100": 28794.5,
+    "qqq": 706.02001953125,
+    "vix": 18.06999969482422,
+    "ratio": 40.784254275279075
   },
   "news": {
     "ok": true,
-    "count": 5,
+    "count": 2,
     "list": [
       {
-        "title": "Core Retail Sales m/m",
+        "title": "Prelim UoM Consumer Sentiment",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       },
       {
-        "title": "Philly Fed Manufacturing Index",
+        "title": "Prelim UoM Inflation Expectations",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Retail Sales m/m",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Unemployment Claims",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "President Trump Speaks",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "21:00",
-        "hhmm_utc": 2100
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -299.0
+    "diff": -428.75
   },
   "cot": {
     "ok": false,
@@ -81,17 +60,17 @@
     "expiration": "2026-07-17",
     "qqq_strikes": {
       "cw1": 800.0,
-      "cw2": 711.0,
+      "cw2": 720.0,
       "pw1": 630.0,
-      "pw2": 675.0,
-      "max_pain": 711.0
+      "pw2": 695.0,
+      "max_pain": 695.0
     },
     "nas100_strikes": {
-      "cw1": 32765,
-      "cw2": 29120,
-      "pw1": 25803,
-      "pw2": 27646,
-      "max_pain": 29120
+      "cw1": 32627,
+      "cw2": 29365,
+      "pw1": 25694,
+      "pw2": 28345,
+      "max_pain": 28345
     },
     "needs_manual_override": false
   },
