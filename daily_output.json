@@ -1,45 +1,37 @@
 {
-  "generated_at": "2026-07-23T21:40:11.923943Z",
-  "prediction_date": "2026-07-23",
+  "generated_at": "2026-07-24T11:23:50.662159Z",
+  "prediction_date": "2026-07-24",
   "ml": {
     "py_day_quality": 0,
-    "py_day_type": 2,
-    "py_bias": 1,
-    "py_bias_strength": 10,
-    "py_confidence": 23,
-    "py_first_move": -1,
-    "py_first_amp_min": 80,
-    "py_first_amp_max": 130,
+    "py_day_type": 4,
+    "py_bias": 0,
+    "py_bias_strength": 1,
+    "py_confidence": 19,
+    "py_first_move": 0,
+    "py_first_amp_min": 30,
+    "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 55.39,
-      "bear_prob": 44.61,
-      "bias_label": "BULLISH",
-      "type_proba_max": 37.26
+      "bull_prob": 50.66,
+      "bear_prob": 49.34,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 37.84
     }
   },
   "prices": {
-    "nas100": 28506.0,
-    "qqq": 689.1400146484375,
-    "vix": 20.200000762939453,
-    "ratio": 41.36459847646815
+    "nas100": 28649.75,
+    "qqq": 691.9199829101562,
+    "vix": 18.799999237060547,
+    "ratio": 41.40616069433579
   },
   "news": {
     "ok": true,
-    "count": 1,
-    "list": [
-      {
-        "title": "Unemployment Claims",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -675.25
+    "bias": "Flat",
+    "diff": 29.25
   },
   "cot": {
     "ok": false,
@@ -52,18 +44,18 @@
     "ok": true,
     "expiration": "2026-07-24",
     "qqq_strikes": {
-      "cw1": 725.0,
-      "cw2": 720.0,
-      "pw1": 700.0,
+      "cw1": 700.0,
+      "cw2": 705.0,
+      "pw1": 680.0,
       "pw2": 685.0,
-      "max_pain": 707.0
+      "max_pain": 699.0
     },
     "nas100_strikes": {
-      "cw1": 29989,
-      "cw2": 29783,
-      "pw1": 28955,
-      "pw2": 28335,
-      "max_pain": 29245
+      "cw1": 28984,
+      "cw2": 29191,
+      "pw1": 28156,
+      "pw2": 28363,
+      "max_pain": 28943
     },
     "needs_manual_override": false
   },
