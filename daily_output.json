@@ -1,37 +1,45 @@
 {
-  "generated_at": "2026-07-24T12:07:06.117294Z",
+  "generated_at": "2026-07-24T15:12:33.679237Z",
   "prediction_date": "2026-07-24",
   "ml": {
     "py_day_quality": 0,
-    "py_day_type": 4,
+    "py_day_type": 2,
     "py_bias": 1,
-    "py_bias_strength": 37,
-    "py_confidence": 36,
-    "py_first_move": 0,
-    "py_first_amp_min": 30,
-    "py_first_amp_max": 60,
+    "py_bias_strength": 29,
+    "py_confidence": 32,
+    "py_first_move": -1,
+    "py_first_amp_min": 80,
+    "py_first_amp_max": 130,
     "meta": {
-      "bull_prob": 68.79,
-      "bear_prob": 31.21,
+      "bull_prob": 64.99,
+      "bear_prob": 35.01,
       "bias_label": "BULLISH",
-      "type_proba_max": 36.59
+      "type_proba_max": 35.55
     }
   },
   "prices": {
-    "nas100": 28608.5,
-    "qqq": 691.9199829101562,
-    "vix": 18.860000610351562,
-    "ratio": 41.3465439741675
+    "nas100": 28420.75,
+    "qqq": 686.1099853515625,
+    "vix": 18.639999389648438,
+    "ratio": 41.42302343178582
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 1,
+    "list": [
+      {
+        "title": "President Trump Speaks",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "20:55",
+        "hhmm_utc": 2055
+      }
+    ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Flat",
-    "diff": -14.75
+    "bias": "Down",
+    "diff": -200.0
   },
   "cot": {
     "ok": false,
@@ -42,20 +50,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-07-24",
+    "expiration": "2026-07-31",
     "qqq_strikes": {
-      "cw1": 700.0,
-      "cw2": 705.0,
-      "pw1": 680.0,
-      "pw2": 685.0,
-      "max_pain": 653.0
+      "cw1": 730.0,
+      "cw2": 736.0,
+      "pw1": 695.0,
+      "pw2": 700.0,
+      "max_pain": 709.0
     },
     "nas100_strikes": {
-      "cw1": 28943,
-      "cw2": 29149,
-      "pw1": 28116,
-      "pw2": 28322,
-      "max_pain": 26999
+      "cw1": 30239,
+      "cw2": 30487,
+      "pw1": 28789,
+      "pw2": 28996,
+      "max_pain": 29369
     },
     "needs_manual_override": false
   },
