@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T10:17:48.613894Z",
+  "generated_at": "2026-07-25T10:58:15.440678Z",
   "prediction_date": "2026-07-24",
   "ml": {
     "py_day_quality": 0,
@@ -11,8 +11,8 @@
     "py_first_amp_min": 80,
     "py_first_amp_max": 130,
     "meta": {
-      "bull_prob": 62.84,
-      "bear_prob": 37.16,
+      "bull_prob": 62.98,
+      "bear_prob": 37.02,
       "bias_label": "BULLISH",
       "type_proba_max": 38.44
     }
