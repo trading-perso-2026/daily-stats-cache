@@ -1,37 +1,45 @@
 {
-  "generated_at": "2026-07-27T13:55:30.728985Z",
+  "generated_at": "2026-07-27T16:02:46.257401Z",
   "prediction_date": "2026-07-27",
   "ml": {
     "py_day_quality": 0,
-    "py_day_type": 4,
+    "py_day_type": 2,
     "py_bias": 0,
-    "py_bias_strength": 3,
-    "py_confidence": 23,
+    "py_bias_strength": 6,
+    "py_confidence": 21,
     "py_first_move": 0,
-    "py_first_amp_min": 30,
-    "py_first_amp_max": 60,
+    "py_first_amp_min": 80,
+    "py_first_amp_max": 130,
     "meta": {
-      "bull_prob": 48.23,
-      "bear_prob": 51.77,
+      "bull_prob": 46.8,
+      "bear_prob": 53.2,
       "bias_label": "NEUTRAL",
-      "type_proba_max": 44.01
+      "type_proba_max": 36.55
     }
   },
   "prices": {
-    "nas100": 28456.75,
-    "qqq": 688.2698974609375,
-    "vix": 17.860000610351562,
-    "ratio": 41.34533575415457
+    "nas100": 28021.5,
+    "qqq": 679.02001953125,
+    "vix": 19.56999969482422,
+    "ratio": 41.26756088773961
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 1,
+    "list": [
+      {
+        "title": "President Trump Speaks",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "14:50",
+        "hhmm_utc": 1450
+      }
+    ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 174.5
+    "bias": "Down",
+    "diff": -260.75
   },
   "cot": {
     "ok": false,
@@ -51,11 +59,11 @@
       "max_pain": 702.0
     },
     "nas100_strikes": {
-      "cw1": 30182,
-      "cw2": 30430,
-      "pw1": 28942,
-      "pw2": 28735,
-      "max_pain": 29024
+      "cw1": 30125,
+      "cw2": 30373,
+      "pw1": 28887,
+      "pw2": 28681,
+      "max_pain": 28970
     },
     "needs_manual_override": false
   },
