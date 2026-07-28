@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-07-27T21:51:04.794477Z",
-  "prediction_date": "2026-07-27",
+  "generated_at": "2026-07-28T12:17:25.958434Z",
+  "prediction_date": "2026-07-28",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 2,
-    "py_bias": 0,
-    "py_bias_strength": 4,
-    "py_confidence": 20,
-    "py_first_move": 0,
+    "py_bias": 1,
+    "py_bias_strength": 33,
+    "py_confidence": 36,
+    "py_first_move": -1,
     "py_first_amp_min": 80,
     "py_first_amp_max": 130,
     "meta": {
-      "bull_prob": 47.95,
-      "bear_prob": 52.05,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 36.34
+      "bull_prob": 66.51,
+      "bear_prob": 33.49,
+      "bias_label": "BULLISH",
+      "type_proba_max": 39.23
     }
   },
   "prices": {
-    "nas100": 28146.5,
-    "qqq": 681.260009765625,
-    "vix": 19.360000610351562,
-    "ratio": 41.31535624655744
+    "nas100": 27988.25,
+    "qqq": 682.0599975585938,
+    "vix": 18.809999465942383,
+    "ratio": 41.034879776240814
   },
   "news": {
     "ok": true,
     "count": 1,
     "list": [
       {
-        "title": "President Trump Speaks",
+        "title": "CB Consumer Confidence",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "14:50",
-        "hhmm_utc": 1450
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -135.75
+    "diff": -201.75
   },
   "cot": {
     "ok": false,
@@ -54,16 +54,16 @@
     "qqq_strikes": {
       "cw1": 730.0,
       "cw2": 736.0,
-      "pw1": 700.0,
-      "pw2": 695.0,
-      "max_pain": 702.0
+      "pw1": 680.0,
+      "pw2": 700.0,
+      "max_pain": 700.0
     },
     "nas100_strikes": {
-      "cw1": 30160,
-      "cw2": 30408,
-      "pw1": 28921,
-      "pw2": 28714,
-      "max_pain": 29003
+      "cw1": 29955,
+      "cw2": 30202,
+      "pw1": 27904,
+      "pw2": 28724,
+      "max_pain": 28724
     },
     "needs_manual_override": false
   },
