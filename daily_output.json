@@ -1,45 +1,59 @@
 {
-  "generated_at": "2026-07-28T21:46:51.996346Z",
-  "prediction_date": "2026-07-28",
+  "generated_at": "2026-07-29T12:32:18.703872Z",
+  "prediction_date": "2026-07-29",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 2,
     "py_bias": 1,
-    "py_bias_strength": 44,
-    "py_confidence": 39,
+    "py_bias_strength": 32,
+    "py_confidence": 32,
     "py_first_move": -1,
     "py_first_amp_min": 80,
     "py_first_amp_max": 130,
     "meta": {
-      "bull_prob": 72.46,
-      "bear_prob": 27.54,
+      "bull_prob": 66.35,
+      "bear_prob": 33.65,
       "bias_label": "BULLISH",
-      "type_proba_max": 35.78
+      "type_proba_max": 33.16
     }
   },
   "prices": {
-    "nas100": 28062.75,
-    "qqq": 677.3300170898438,
-    "vix": 17.989999771118164,
-    "ratio": 41.43142824316561
+    "nas100": 27857.75,
+    "qqq": 675.5,
+    "vix": 18.81999969482422,
+    "ratio": 41.24019245003701
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 3,
     "list": [
       {
-        "title": "CB Consumer Confidence",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
+        "title": "Federal Funds Rate",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "14:00",
+        "hhmm_utc": 1400
+      },
+      {
+        "title": "FOMC Statement",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "14:00",
+        "hhmm_utc": 1400
+      },
+      {
+        "title": "FOMC Press Conference",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "14:30",
+        "hhmm_utc": 1430
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -127.25
+    "diff": -67.25
   },
   "cot": {
     "ok": false,
@@ -52,18 +66,18 @@
     "ok": true,
     "expiration": "2026-07-31",
     "qqq_strikes": {
-      "cw1": 730.0,
-      "cw2": 736.0,
+      "cw1": 736.0,
+      "cw2": 730.0,
       "pw1": 680.0,
-      "pw2": 700.0,
-      "max_pain": 700.0
+      "pw2": 695.0,
+      "max_pain": 695.0
     },
     "nas100_strikes": {
-      "cw1": 30245,
-      "cw2": 30494,
-      "pw1": 28173,
-      "pw2": 29002,
-      "max_pain": 29002
+      "cw1": 30353,
+      "cw2": 30105,
+      "pw1": 28043,
+      "pw2": 28662,
+      "max_pain": 28662
     },
     "needs_manual_override": false
   },
