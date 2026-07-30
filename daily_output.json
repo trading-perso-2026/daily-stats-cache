@@ -1,59 +1,66 @@
 {
-  "generated_at": "2026-07-29T21:16:10.174831Z",
-  "prediction_date": "2026-07-29",
+  "generated_at": "2026-07-30T12:02:45.615802Z",
+  "prediction_date": "2026-07-30",
   "ml": {
     "py_day_quality": 0,
-    "py_day_type": 2,
-    "py_bias": 0,
-    "py_bias_strength": 4,
-    "py_confidence": 20,
+    "py_day_type": 4,
+    "py_bias": 1,
+    "py_bias_strength": 38,
+    "py_confidence": 38,
     "py_first_move": 0,
-    "py_first_amp_min": 80,
-    "py_first_amp_max": 130,
+    "py_first_amp_min": 30,
+    "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 52.23,
-      "bear_prob": 47.77,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 37.58
+      "bull_prob": 69.3,
+      "bear_prob": 30.7,
+      "bias_label": "BULLISH",
+      "type_proba_max": 39.36
     }
   },
   "prices": {
-    "nas100": 27601.5,
-    "qqq": 667.5,
-    "vix": 19.850000381469727,
-    "ratio": 41.35056179775281
+    "nas100": 27723.75,
+    "qqq": 661.6300048828125,
+    "vix": 19.1299991607666,
+    "ratio": 41.90219578223393
   },
   "news": {
     "ok": true,
-    "count": 3,
+    "count": 4,
     "list": [
       {
-        "title": "Federal Funds Rate",
+        "title": "Advance GDP q/q",
         "impact": 2,
         "flag": "🔴",
-        "time_utc_str": "14:00",
-        "hhmm_utc": 1400
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       },
       {
-        "title": "FOMC Statement",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "14:00",
-        "hhmm_utc": 1400
+        "title": "Core PCE Price Index m/m",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       },
       {
-        "title": "FOMC Press Conference",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "14:30",
-        "hhmm_utc": 1430
+        "title": "Advance GDP Price Index q/q",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Unemployment Claims",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -317.5
+    "bias": "Up",
+    "diff": 383.0
   },
   "cot": {
     "ok": false,
@@ -66,18 +73,18 @@
     "ok": true,
     "expiration": "2026-07-31",
     "qqq_strikes": {
-      "cw1": 736.0,
-      "cw2": 730.0,
-      "pw1": 680.0,
-      "pw2": 695.0,
-      "max_pain": 695.0
+      "cw1": 700.0,
+      "cw2": 736.0,
+      "pw1": 700.0,
+      "pw2": 680.0,
+      "max_pain": 690.0
     },
     "nas100_strikes": {
-      "cw1": 30434,
-      "cw2": 30186,
-      "pw1": 28118,
-      "pw2": 28739,
-      "max_pain": 28739
+      "cw1": 29332,
+      "cw2": 30840,
+      "pw1": 29332,
+      "pw2": 28493,
+      "max_pain": 28913
     },
     "needs_manual_override": false
   },
