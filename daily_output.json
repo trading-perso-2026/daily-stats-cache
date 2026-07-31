@@ -1,66 +1,59 @@
 {
-  "generated_at": "2026-07-30T21:50:00.208516Z",
-  "prediction_date": "2026-07-30",
+  "generated_at": "2026-07-31T12:26:48.869324Z",
+  "prediction_date": "2026-07-31",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 17,
-    "py_confidence": 29,
+    "py_bias_strength": 40,
+    "py_confidence": 46,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 58.65,
-      "bear_prob": 41.35,
+      "bull_prob": 70.35,
+      "bear_prob": 29.65,
       "bias_label": "BULLISH",
-      "type_proba_max": 42.49
+      "type_proba_max": 53.72
     }
   },
   "prices": {
-    "nas100": 28042.75,
-    "qqq": 679.8599853515625,
-    "vix": 19.010000228881836,
-    "ratio": 41.247831324414264
+    "nas100": 28467.5,
+    "qqq": 683.5999755859375,
+    "vix": 17.079999923706055,
+    "ratio": 41.643506460923305
   },
   "news": {
     "ok": true,
-    "count": 4,
+    "count": 3,
     "list": [
       {
-        "title": "Advance GDP q/q",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Core PCE Price Index m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Advance GDP Price Index q/q",
+        "title": "Employment Cost Index q/q",
         "impact": 1,
         "flag": "🟠",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       },
       {
-        "title": "Unemployment Claims",
+        "title": "Revised UoM Consumer Sentiment",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "Revised UoM Inflation Expectations",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 700.75
+    "diff": 229.75
   },
   "cot": {
     "ok": false,
@@ -73,18 +66,18 @@
     "ok": true,
     "expiration": "2026-07-31",
     "qqq_strikes": {
-      "cw1": 700.0,
-      "cw2": 736.0,
-      "pw1": 700.0,
-      "pw2": 680.0,
+      "cw1": 730.0,
+      "cw2": 733.0,
+      "pw1": 680.0,
+      "pw2": 620.0,
       "max_pain": 690.0
     },
     "nas100_strikes": {
-      "cw1": 28873,
-      "cw2": 30358,
-      "pw1": 28873,
-      "pw2": 28049,
-      "max_pain": 28461
+      "cw1": 30400,
+      "cw2": 30525,
+      "pw1": 28318,
+      "pw2": 25819,
+      "max_pain": 28734
     },
     "needs_manual_override": false
   },
