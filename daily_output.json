@@ -1,59 +1,37 @@
 {
-  "generated_at": "2026-07-31T21:48:05.745079Z",
+  "generated_at": "2026-08-01T10:50:49.534434Z",
   "prediction_date": "2026-07-31",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 43,
-    "py_confidence": 43,
+    "py_bias_strength": 34,
+    "py_confidence": 42,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 71.88,
-      "bear_prob": 28.12,
+      "bull_prob": 67.35,
+      "bear_prob": 32.65,
       "bias_label": "BULLISH",
-      "type_proba_max": 43.13
+      "type_proba_max": 51.22
     }
   },
   "prices": {
-    "nas100": 28273.25,
-    "qqq": 684.8300170898438,
-    "vix": 17.360000610351562,
-    "ratio": 41.28506241613938
+    "nas100": 28404.25,
+    "qqq": 688.010009765625,
+    "vix": 15.989999771118164,
+    "ratio": 41.28464643948435
   },
   "news": {
     "ok": true,
-    "count": 3,
-    "list": [
-      {
-        "title": "Employment Cost Index q/q",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Revised UoM Consumer Sentiment",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "Revised UoM Inflation Expectations",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 35.0
+    "diff": 166.5
   },
   "cot": {
     "ok": false,
@@ -64,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-08-07",
+    "expiration": "2026-08-14",
     "qqq_strikes": {
-      "cw1": 690.0,
+      "cw1": 735.0,
       "cw2": 700.0,
-      "pw1": 645.0,
-      "pw2": 660.0,
-      "max_pain": 690.0
+      "pw1": 685.0,
+      "pw2": 655.0,
+      "max_pain": 695.0
     },
     "nas100_strikes": {
-      "cw1": 28487,
-      "cw2": 28900,
-      "pw1": 26629,
-      "pw2": 27248,
-      "max_pain": 28487
+      "cw1": 30344,
+      "cw2": 28899,
+      "pw1": 28280,
+      "pw2": 27041,
+      "max_pain": 28693
     },
     "needs_manual_override": false
   },
