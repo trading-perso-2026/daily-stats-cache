@@ -1,37 +1,52 @@
 {
-  "generated_at": "2026-08-02T12:16:04.489340Z",
-  "prediction_date": "2026-07-31",
+  "generated_at": "2026-08-03T14:00:42.806217Z",
+  "prediction_date": "2026-08-03",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": -1,
-    "py_bias_strength": 24,
-    "py_confidence": 39,
+    "py_bias": 1,
+    "py_bias_strength": 32,
+    "py_confidence": 42,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 37.61,
-      "bear_prob": 62.39,
-      "bias_label": "BEARISH",
-      "type_proba_max": 54.11
+      "bull_prob": 66.03,
+      "bear_prob": 33.97,
+      "bias_label": "BULLISH",
+      "type_proba_max": 52.83
     }
   },
   "prices": {
-    "nas100": 28404.25,
-    "qqq": 688.010009765625,
-    "vix": 15.989999771118164,
-    "ratio": 41.28464643948435
+    "nas100": 28478.25,
+    "qqq": 692.52001953125,
+    "vix": 16.25,
+    "ratio": 41.12263789756755
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 2,
+    "list": [
+      {
+        "title": "ISM Manufacturing PMI",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "ISM Manufacturing Prices",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      }
+    ]
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 166.5
+    "diff": 74.0
   },
   "cot": {
     "ok": false,
@@ -42,20 +57,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-08-14",
+    "expiration": "2026-08-07",
     "qqq_strikes": {
-      "cw1": 735.0,
+      "cw1": 690.0,
       "cw2": 700.0,
-      "pw1": 685.0,
-      "pw2": 655.0,
-      "max_pain": 695.0
+      "pw1": 660.0,
+      "pw2": 645.0,
+      "max_pain": 690.0
     },
     "nas100_strikes": {
-      "cw1": 30344,
-      "cw2": 28899,
-      "pw1": 28280,
-      "pw2": 27041,
-      "max_pain": 28693
+      "cw1": 28375,
+      "cw2": 28786,
+      "pw1": 27141,
+      "pw2": 26524,
+      "max_pain": 28375
     },
     "needs_manual_override": false
   },
