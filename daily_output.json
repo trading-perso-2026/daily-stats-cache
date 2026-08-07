@@ -1,36 +1,50 @@
 {
-  "generated_at": "2026-08-07T01:53:26.490196Z",
-  "prediction_date": "2026-08-06",
+  "generated_at": "2026-08-07T08:36:27.397514Z",
+  "prediction_date": "2026-08-07",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 1,
-    "py_bias_strength": 19,
-    "py_confidence": 38,
+    "py_bias": -1,
+    "py_bias_strength": 12,
+    "py_confidence": 37,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 59.9,
-      "bear_prob": 40.1,
-      "bias_label": "BULLISH",
-      "type_proba_max": 58.44
+      "bull_prob": 43.52,
+      "bear_prob": 56.48,
+      "bias_label": "BEARISH",
+      "type_proba_max": 63.67
     }
   },
   "prices": {
-    "nas100": 29393.0,
-    "qqq": 717.219970703125,
-    "vix": 15.970000267028809,
-    "ratio": 40.98184824829214
+    "nas100": 29622.75,
+    "qqq": 714.6199951171875,
+    "vix": 15.279999732971191,
+    "ratio": 41.45245053651527
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 3,
     "list": [
       {
-        "title": "Unemployment Claims",
-        "impact": 1,
-        "flag": "🟠",
+        "title": "Average Hourly Earnings m/m",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Non-Farm Employment Change",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Unemployment Rate",
+        "impact": 2,
+        "flag": "🔴",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       }
@@ -38,8 +52,8 @@
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -222.0
+    "bias": "Up",
+    "diff": 134.5
   },
   "cot": {
     "ok": false,
@@ -52,18 +66,18 @@
     "ok": true,
     "expiration": "2026-08-07",
     "qqq_strikes": {
-      "cw1": 690.0,
-      "cw2": 735.0,
-      "pw1": 660.0,
-      "pw2": 600.0,
-      "max_pain": 700.0
+      "cw1": 400.0,
+      "cw2": 405.0,
+      "pw1": 360.0,
+      "pw2": 365.0,
+      "max_pain": 360.0
     },
     "nas100_strikes": {
-      "cw1": 28277,
-      "cw2": 30122,
-      "pw1": 27048,
-      "pw2": 24589,
-      "max_pain": 28687
+      "cw1": 16581,
+      "cw2": 16788,
+      "pw1": 14923,
+      "pw2": 15130,
+      "max_pain": 14923
     },
     "needs_manual_override": false
   },
