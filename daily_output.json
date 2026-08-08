@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T07:36:55.706187Z",
+  "generated_at": "2026-08-08T09:20:51.357304Z",
   "prediction_date": "2026-08-07",
   "ml": {
     "py_day_quality": 0,
@@ -31,7 +31,7 @@
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 351.25
+    "diff": 346.5
   },
   "cot": {
     "ok": false,
