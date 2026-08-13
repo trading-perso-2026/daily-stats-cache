@@ -1,57 +1,50 @@
 {
-  "generated_at": "2026-08-12T19:09:01.481681Z",
-  "prediction_date": "2026-08-12",
+  "generated_at": "2026-08-13T06:12:13.786746Z",
+  "prediction_date": "2026-08-13",
   "ml": {
-    "py_day_quality": 0,
+    "py_day_quality": 1,
     "py_day_type": 4,
     "py_bias": -1,
-    "py_bias_strength": 37,
-    "py_confidence": 47,
+    "py_bias_strength": 42,
+    "py_confidence": 53,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 31.38,
-      "bear_prob": 68.62,
+      "bull_prob": 28.6,
+      "bear_prob": 71.4,
       "bias_label": "BEARISH",
-      "type_proba_max": 57.14
+      "type_proba_max": 64.16
     }
   },
   "prices": {
-    "nas100": 29811.75,
-    "qqq": 718.3400268554688,
-    "vix": 15.369999885559082,
-    "ratio": 41.5008893914778
+    "nas100": 29875.75,
+    "qqq": 723.6699829101562,
+    "vix": 14.550000190734863,
+    "ratio": 41.28366618145205
   },
   "news": {
     "ok": true,
-    "count": 4,
+    "count": 3,
     "list": [
       {
-        "title": "Core CPI m/m",
-        "impact": 3,
-        "flag": "🔥",
+        "title": "Core PPI m/m",
+        "impact": 2,
+        "flag": "🔴",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       },
       {
-        "title": "Core CPI y/y",
-        "impact": 3,
-        "flag": "🔥",
+        "title": "PPI m/m",
+        "impact": 2,
+        "flag": "🔴",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       },
       {
-        "title": "CPI m/m",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "CPI y/y",
-        "impact": 3,
-        "flag": "🔥",
+        "title": "Unemployment Claims",
+        "impact": 1,
+        "flag": "🟠",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       }
@@ -59,8 +52,8 @@
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 186.0
+    "bias": "Flat",
+    "diff": 22.5
   },
   "cot": {
     "ok": false,
@@ -73,18 +66,18 @@
     "ok": true,
     "expiration": "2026-08-14",
     "qqq_strikes": {
-      "cw1": 730.0,
-      "cw2": 725.0,
-      "pw1": 685.0,
-      "pw2": 700.0,
-      "max_pain": 720.0
+      "cw1": 355.0,
+      "cw2": 360.0,
+      "pw1": 355.0,
+      "pw2": 360.0,
+      "max_pain": 355.0
     },
     "nas100_strikes": {
-      "cw1": 30296,
-      "cw2": 30088,
-      "pw1": 28428,
-      "pw2": 29051,
-      "max_pain": 29881
+      "cw1": 14656,
+      "cw2": 14862,
+      "pw1": 14656,
+      "pw2": 14862,
+      "max_pain": 14656
     },
     "needs_manual_override": false
   },
