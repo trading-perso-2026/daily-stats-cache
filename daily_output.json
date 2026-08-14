@@ -1,59 +1,66 @@
 {
-  "generated_at": "2026-08-13T19:09:30.286616Z",
-  "prediction_date": "2026-08-13",
+  "generated_at": "2026-08-14T06:08:44.490725Z",
+  "prediction_date": "2026-08-14",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": -1,
-    "py_bias_strength": 38,
+    "py_bias_strength": 33,
     "py_confidence": 48,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 30.9,
-      "bear_prob": 69.1,
+      "bull_prob": 33.01,
+      "bear_prob": 66.99,
       "bias_label": "BEARISH",
-      "type_proba_max": 58.46
+      "type_proba_max": 64.79
     }
   },
   "prices": {
-    "nas100": 29843.0,
-    "qqq": 723.6699829101562,
-    "vix": 14.649999618530273,
-    "ratio": 41.238410746276614
+    "nas100": 30177.25,
+    "qqq": 732.0599975585938,
+    "vix": 14.630000114440918,
+    "ratio": 41.22237262060563
   },
   "news": {
     "ok": true,
-    "count": 3,
+    "count": 4,
     "list": [
       {
-        "title": "Core PPI m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "PPI m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Unemployment Claims",
+        "title": "Core Retail Sales m/m",
         "impact": 1,
         "flag": "🟠",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
+      },
+      {
+        "title": "Retail Sales m/m",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Prelim UoM Consumer Sentiment",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "Prelim UoM Inflation Expectations",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Flat",
-    "diff": -10.25
+    "diff": -11.25
   },
   "cot": {
     "ok": false,
@@ -73,11 +80,11 @@
       "max_pain": 355.0
     },
     "nas100_strikes": {
-      "cw1": 14640,
-      "cw2": 14846,
-      "pw1": 14640,
-      "pw2": 14846,
-      "max_pain": 14640
+      "cw1": 14634,
+      "cw2": 14840,
+      "pw1": 14634,
+      "pw2": 14840,
+      "max_pain": 14634
     },
     "needs_manual_override": false
   },
