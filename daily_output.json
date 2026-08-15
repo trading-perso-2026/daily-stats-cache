@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T07:32:59.731744Z",
+  "generated_at": "2026-08-15T08:57:07.220704Z",
   "prediction_date": "2026-08-14",
   "ml": {
     "py_day_quality": 0,
@@ -11,8 +11,8 @@
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 45.32,
-      "bear_prob": 54.68,
+      "bull_prob": 45.48,
+      "bear_prob": 54.52,
       "bias_label": "NEUTRAL",
       "type_proba_max": 61.58
     }
@@ -31,7 +31,7 @@
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -34.5
+    "diff": -46.75
   },
   "cot": {
     "ok": false,
