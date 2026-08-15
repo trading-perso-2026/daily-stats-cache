@@ -1,66 +1,37 @@
 {
-  "generated_at": "2026-08-14T19:01:45.449740Z",
+  "generated_at": "2026-08-15T05:19:34.807946Z",
   "prediction_date": "2026-08-14",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": -1,
-    "py_bias_strength": 22,
-    "py_confidence": 45,
+    "py_bias": 0,
+    "py_bias_strength": 9,
+    "py_confidence": 35,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 38.59,
-      "bear_prob": 61.41,
-      "bias_label": "BEARISH",
-      "type_proba_max": 69.86
+      "bull_prob": 45.32,
+      "bear_prob": 54.68,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 61.58
     }
   },
   "prices": {
-    "nas100": 30226.0,
-    "qqq": 732.0599975585938,
-    "vix": 14.569999694824219,
-    "ratio": 41.288965523048844
+    "nas100": 30141.75,
+    "qqq": 731.0499877929688,
+    "vix": 14.25,
+    "ratio": 41.23076465810168
   },
   "news": {
     "ok": true,
-    "count": 4,
-    "list": [
-      {
-        "title": "Core Retail Sales m/m",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Retail Sales m/m",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Prelim UoM Consumer Sentiment",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "Prelim UoM Inflation Expectations",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 37.5
+    "bias": "Down",
+    "diff": -34.5
   },
   "cot": {
     "ok": false,
@@ -71,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-08-14",
+    "expiration": "2026-08-28",
     "qqq_strikes": {
-      "cw1": 355.0,
-      "cw2": 360.0,
-      "pw1": 355.0,
-      "pw2": 360.0,
-      "max_pain": 355.0
+      "cw1": 760.0,
+      "cw2": 735.0,
+      "pw1": 700.0,
+      "pw2": 680.0,
+      "max_pain": 715.0
     },
     "nas100_strikes": {
-      "cw1": 14658,
-      "cw2": 14864,
-      "pw1": 14658,
-      "pw2": 14864,
-      "max_pain": 14658
+      "cw1": 31335,
+      "cw2": 30305,
+      "pw1": 28862,
+      "pw2": 28037,
+      "max_pain": 29480
     },
     "needs_manual_override": false
   },
