@@ -1,37 +1,52 @@
 {
-  "generated_at": "2026-08-18T18:46:23.568835Z",
-  "prediction_date": "2026-08-18",
+  "generated_at": "2026-08-19T05:23:43.717804Z",
+  "prediction_date": "2026-08-19",
   "ml": {
     "py_day_quality": 0,
-    "py_day_type": 2,
-    "py_bias": 0,
-    "py_bias_strength": 3,
-    "py_confidence": 19,
+    "py_day_type": 4,
+    "py_bias": -1,
+    "py_bias_strength": 16,
+    "py_confidence": 28,
     "py_first_move": 0,
-    "py_first_amp_min": 80,
-    "py_first_amp_max": 130,
+    "py_first_amp_min": 30,
+    "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 48.29,
-      "bear_prob": 51.71,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 35.13
+      "bull_prob": 41.66,
+      "bear_prob": 58.34,
+      "bias_label": "BEARISH",
+      "type_proba_max": 40.78
     }
   },
   "prices": {
-    "nas100": 29756.25,
-    "qqq": 729.8599243164062,
-    "vix": 15.890000343322754,
-    "ratio": 40.76980939578233
+    "nas100": 29489.25,
+    "qqq": 717.5900268554688,
+    "vix": 15.84000015258789,
+    "ratio": 41.09484370793727
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 2,
+    "list": [
+      {
+        "title": "FOMC Meeting Minutes",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "14:00",
+        "hhmm_utc": 1400
+      },
+      {
+        "title": "President Trump Speaks",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "14:30",
+        "hhmm_utc": 1430
+      }
+    ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -338.25
+    "diff": -96.75
   },
   "cot": {
     "ok": false,
@@ -51,11 +66,11 @@
       "max_pain": 855.0
     },
     "nas100_strikes": {
-      "cw1": 17123,
-      "cw2": 18550,
-      "pw1": 12842,
-      "pw2": 13046,
-      "max_pain": 34858
+      "cw1": 17260,
+      "cw2": 18698,
+      "pw1": 12945,
+      "pw2": 13150,
+      "max_pain": 35136
     },
     "needs_manual_override": false
   },
