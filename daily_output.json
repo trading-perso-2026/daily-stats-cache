@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-08-19T18:42:27.027250Z",
-  "prediction_date": "2026-08-19",
+  "generated_at": "2026-08-20T05:24:30.536530Z",
+  "prediction_date": "2026-08-20",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": -1,
-    "py_bias_strength": 19,
-    "py_confidence": 29,
+    "py_bias": 0,
+    "py_bias_strength": 5,
+    "py_confidence": 22,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 40.08,
-      "bear_prob": 59.92,
-      "bias_label": "BEARISH",
-      "type_proba_max": 40.52
+      "bull_prob": 47.06,
+      "bear_prob": 52.94,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 39.18
     }
   },
   "prices": {
-    "nas100": 29612.0,
-    "qqq": 717.5900268554688,
-    "vix": 15.800000190734863,
-    "ratio": 41.26590238407008
+    "nas100": 29592.25,
+    "qqq": 716.1099853515625,
+    "vix": 14.890000343322754,
+    "ratio": 41.323610346631554
   },
   "news": {
     "ok": true,
     "count": 2,
     "list": [
       {
-        "title": "FOMC Meeting Minutes",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "14:00",
-        "hhmm_utc": 1400
-      },
-      {
-        "title": "President Trump Speaks",
+        "title": "Philly Fed Manufacturing Index",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "14:30",
-        "hhmm_utc": 1430
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Unemployment Claims",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Flat",
-    "diff": 26.0
+    "bias": "Up",
+    "diff": 79.5
   },
   "cot": {
     "ok": false,
@@ -59,18 +59,18 @@
     "ok": true,
     "expiration": "2026-08-21",
     "qqq_strikes": {
-      "cw1": 420.0,
-      "cw2": 455.0,
+      "cw1": 455.0,
+      "cw2": 375.0,
       "pw1": 315.0,
       "pw2": 320.0,
       "max_pain": 855.0
     },
     "nas100_strikes": {
-      "cw1": 17332,
-      "cw2": 18776,
-      "pw1": 12999,
-      "pw2": 13205,
-      "max_pain": 35282
+      "cw1": 18802,
+      "cw2": 15496,
+      "pw1": 13017,
+      "pw2": 13224,
+      "max_pain": 35332
     },
     "needs_manual_override": false
   },
