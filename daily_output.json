@@ -1,52 +1,45 @@
 {
-  "generated_at": "2026-08-20T18:48:43.736935Z",
-  "prediction_date": "2026-08-20",
+  "generated_at": "2026-08-21T05:27:00.139273Z",
+  "prediction_date": "2026-08-21",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 1,
-    "py_bias_strength": 40,
-    "py_confidence": 38,
+    "py_bias": 0,
+    "py_bias_strength": 4,
+    "py_confidence": 20,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 70.14,
-      "bear_prob": 29.86,
-      "bias_label": "BULLISH",
-      "type_proba_max": 36.97
+      "bull_prob": 52.47,
+      "bear_prob": 47.53,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 37.8
     }
   },
   "prices": {
-    "nas100": 29476.5,
-    "qqq": 716.1099853515625,
-    "vix": 15.229999542236328,
-    "ratio": 41.16197316467944
+    "nas100": 29366.0,
+    "qqq": 710.9500122070312,
+    "vix": 16.010000228881836,
+    "ratio": 41.30529502185101
   },
   "news": {
     "ok": true,
-    "count": 2,
+    "count": 1,
     "list": [
       {
-        "title": "Philly Fed Manufacturing Index",
+        "title": "President Trump Speaks",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Unemployment Claims",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
+        "time_utc_str": "19:00",
+        "hhmm_utc": 1900
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -36.25
+    "bias": "Up",
+    "diff": 65.5
   },
   "cot": {
     "ok": false,
@@ -59,18 +52,18 @@
     "ok": true,
     "expiration": "2026-08-21",
     "qqq_strikes": {
-      "cw1": 455.0,
-      "cw2": 375.0,
+      "cw1": 375.0,
+      "cw2": 320.0,
       "pw1": 315.0,
       "pw2": 320.0,
       "max_pain": 855.0
     },
     "nas100_strikes": {
-      "cw1": 18729,
-      "cw2": 15436,
-      "pw1": 12966,
-      "pw2": 13172,
-      "max_pain": 35193
+      "cw1": 15489,
+      "cw2": 13218,
+      "pw1": 13011,
+      "pw2": 13218,
+      "max_pain": 35316
     },
     "needs_manual_override": false
   },
