@@ -1,37 +1,45 @@
 {
-  "generated_at": "2026-08-23T08:59:08.400471Z",
-  "prediction_date": "2026-08-21",
+  "generated_at": "2026-08-24T05:33:10.953909Z",
+  "prediction_date": "2026-08-24",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 0,
-    "py_bias_strength": 7,
-    "py_confidence": 29,
+    "py_bias": 1,
+    "py_bias_strength": 31,
+    "py_confidence": 36,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 46.42,
-      "bear_prob": 53.58,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 51.91
+      "bull_prob": 65.6,
+      "bear_prob": 34.4,
+      "bias_label": "BULLISH",
+      "type_proba_max": 41.29
     }
   },
   "prices": {
-    "nas100": 29387.75,
+    "nas100": 29267.25,
     "qqq": 713.4099731445312,
     "vix": 15.130000114440918,
-    "ratio": 41.19335460151505
+    "ratio": 41.02444751507656
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 1,
+    "list": [
+      {
+        "title": "Treasury Sec Bessent Speaks",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "14:00",
+        "hhmm_utc": 1400
+      }
+    ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 87.25
+    "bias": "Down",
+    "diff": -120.5
   },
   "cot": {
     "ok": false,
@@ -42,20 +50,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-09-04",
+    "expiration": "2026-08-28",
     "qqq_strikes": {
-      "cw1": 735.0,
-      "cw2": 750.0,
-      "pw1": 680.0,
-      "pw2": 730.0,
-      "max_pain": 835.0
+      "cw1": 360.0,
+      "cw2": 380.0,
+      "pw1": 360.0,
+      "pw2": 365.0,
+      "max_pain": 360.0
     },
     "nas100_strikes": {
-      "cw1": 30277,
-      "cw2": 30895,
-      "pw1": 28011,
-      "pw2": 30071,
-      "max_pain": 34396
+      "cw1": 14769,
+      "cw2": 15589,
+      "pw1": 14769,
+      "pw2": 14974,
+      "max_pain": 14769
     },
     "needs_manual_override": false
   },
