@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-08-24T18:49:16.818147Z",
-  "prediction_date": "2026-08-24",
+  "generated_at": "2026-08-25T05:26:16.387775Z",
+  "prediction_date": "2026-08-25",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 16,
-    "py_confidence": 26,
+    "py_bias_strength": 27,
+    "py_confidence": 35,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 58.08,
-      "bear_prob": 41.92,
+      "bull_prob": 63.52,
+      "bear_prob": 36.48,
       "bias_label": "BULLISH",
-      "type_proba_max": 36.14
+      "type_proba_max": 43.37
     }
   },
   "prices": {
-    "nas100": 29234.0,
-    "qqq": 713.4099731445312,
-    "vix": 15.859999656677246,
-    "ratio": 40.97784037296802
+    "nas100": 29215.5,
+    "qqq": 706.239990234375,
+    "vix": 15.84000015258789,
+    "ratio": 41.36766595488943
   },
   "news": {
     "ok": true,
     "count": 1,
     "list": [
       {
-        "title": "Treasury Sec Bessent Speaks",
+        "title": "CB Consumer Confidence",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "14:00",
-        "hhmm_utc": 1400
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -153.75
+    "bias": "Up",
+    "diff": 109.75
   },
   "cot": {
     "ok": false,
@@ -52,18 +52,18 @@
     "ok": true,
     "expiration": "2026-08-28",
     "qqq_strikes": {
-      "cw1": 360.0,
-      "cw2": 380.0,
+      "cw1": 560.0,
+      "cw2": 535.0,
       "pw1": 360.0,
       "pw2": 365.0,
       "max_pain": 360.0
     },
     "nas100_strikes": {
-      "cw1": 14752,
-      "cw2": 15572,
-      "pw1": 14752,
-      "pw2": 14957,
-      "max_pain": 14752
+      "cw1": 23166,
+      "cw2": 22132,
+      "pw1": 14892,
+      "pw2": 15099,
+      "max_pain": 14892
     },
     "needs_manual_override": false
   },
