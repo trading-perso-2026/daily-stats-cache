@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T15:06:32.934747Z",
+  "generated_at": "2026-08-25T15:13:22.886482Z",
   "prediction_date": "2026-08-25",
   "ml": {
     "py_day_quality": 0,
@@ -68,21 +68,21 @@
     "needs_manual_override": false
   },
   "judas": {
-    "generated_at": "2026-08-25T15:06:31.746430Z",
+    "generated_at": "2026-08-25T15:13:22.228131Z",
     "ok": true,
     "prix_open_ny": 29296.25,
     "prix_extreme": 29414.75,
-    "prix_actuel": 29235.5,
+    "prix_actuel": 29211.75,
     "mouvement_initial": 118.5,
     "amplitude": 118.5,
     "direction": 1,
-    "recuperation": 179.2,
-    "recuperation_pct": 151.3,
+    "recuperation": 203.0,
+    "recuperation_pct": 171.3,
     "judas_confirme": true,
     "biais_ml_predit": 1,
     "atr_daily": 401.9,
     "seuil_invalidation": 200.9,
-    "mouvement_total": -60.8,
+    "mouvement_total": -84.5,
     "scenario_holds": true,
     "tv_update1_active": true,
     "tv_update1_judas_confirmed": true,
