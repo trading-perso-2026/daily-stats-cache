@@ -1,45 +1,59 @@
 {
-  "generated_at": "2026-08-25T18:47:13.793579Z",
-  "prediction_date": "2026-08-25",
+  "generated_at": "2026-08-26T05:28:08.879270Z",
+  "prediction_date": "2026-08-26",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 31,
-    "py_confidence": 38,
+    "py_bias_strength": 20,
+    "py_confidence": 31,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 65.85,
-      "bear_prob": 34.15,
+      "bull_prob": 60.04,
+      "bear_prob": 39.96,
       "bias_label": "BULLISH",
-      "type_proba_max": 46.54
+      "type_proba_max": 42.13
     }
   },
   "prices": {
-    "nas100": 29297.0,
-    "qqq": 706.239990234375,
-    "vix": 15.800000190734863,
-    "ratio": 41.48306582055401
+    "nas100": 29231.0,
+    "qqq": 710.6400146484375,
+    "vix": 15.449999809265137,
+    "ratio": 41.133343742908906
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 3,
     "list": [
       {
-        "title": "CB Consumer Confidence",
+        "title": "Core PCE Price Index m/m",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Prelim GDP q/q",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Prelim GDP Price Index q/q",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 186.5
+    "bias": "Down",
+    "diff": -45.5
   },
   "cot": {
     "ok": false,
@@ -59,11 +73,11 @@
       "max_pain": 360.0
     },
     "nas100_strikes": {
-      "cw1": 23231,
-      "cw2": 22193,
-      "pw1": 14934,
-      "pw2": 15141,
-      "max_pain": 14934
+      "cw1": 23035,
+      "cw2": 22006,
+      "pw1": 14808,
+      "pw2": 15014,
+      "max_pain": 14808
     },
     "needs_manual_override": false
   },
