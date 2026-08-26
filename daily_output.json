@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-26T07:49:52.614263Z",
+  "generated_at": "2026-08-26T09:21:16.334414Z",
   "prediction_date": "2026-08-26",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 14,
-    "py_confidence": 27,
+    "py_bias_strength": 19,
+    "py_confidence": 29,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 57.31,
-      "bear_prob": 42.69,
+      "bull_prob": 59.87,
+      "bear_prob": 40.13,
       "bias_label": "BULLISH",
-      "type_proba_max": 40.42
+      "type_proba_max": 40.66
     }
   },
   "prices": {
-    "nas100": 29197.75,
+    "nas100": 29218.75,
     "qqq": 710.6400146484375,
     "vix": 15.699999809265137,
-    "ratio": 41.08655493378668
+    "ratio": 41.11610576060072
   },
   "news": {
     "ok": true,
@@ -53,7 +53,7 @@
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -79.0
+    "diff": -58.0
   },
   "cot": {
     "ok": false,
@@ -73,11 +73,11 @@
       "max_pain": 360.0
     },
     "nas100_strikes": {
-      "cw1": 23008,
-      "cw2": 21981,
-      "pw1": 14791,
-      "pw2": 14997,
-      "max_pain": 14791
+      "cw1": 23025,
+      "cw2": 21997,
+      "pw1": 14802,
+      "pw2": 15007,
+      "max_pain": 14802
     },
     "needs_manual_override": false
   },
