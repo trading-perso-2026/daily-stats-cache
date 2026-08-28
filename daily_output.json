@@ -1,45 +1,66 @@
 {
-  "generated_at": "2026-08-28T02:06:59.295327Z",
-  "prediction_date": "2026-08-27",
+  "generated_at": "2026-08-28T17:06:31.169308Z",
+  "prediction_date": "2026-08-28",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 20,
-    "py_confidence": 38,
+    "py_bias_strength": 34,
+    "py_confidence": 39,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 60.25,
-      "bear_prob": 39.75,
+      "bull_prob": 67.19,
+      "bear_prob": 32.81,
       "bias_label": "BULLISH",
-      "type_proba_max": 57.05
+      "type_proba_max": 45.22
     }
   },
   "prices": {
-    "nas100": 29576.0,
-    "qqq": 718.8200073242188,
-    "vix": 14.65999984741211,
-    "ratio": 41.14520978637695
+    "nas100": 29512.75,
+    "qqq": 715.3453979492188,
+    "vix": 14.520000457763672,
+    "ratio": 41.25664341255057
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 4,
     "list": [
       {
-        "title": "Unemployment Claims",
+        "title": "Fed Chairman Warsh Speaks",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "Prelim Benchmark Payrolls Revision",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "Revised UoM Consumer Sentiment",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "Revised UoM Inflation Expectations",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 287.25
+    "bias": "Down",
+    "diff": -183.0
   },
   "cot": {
     "ok": false,
@@ -50,20 +71,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-08-28",
+    "expiration": "2026-09-04",
     "qqq_strikes": {
-      "cw1": 765.0,
-      "cw2": 730.0,
-      "pw1": 505.0,
-      "pw2": 470.0,
-      "max_pain": 711.0
+      "cw1": 735.0,
+      "cw2": 720.0,
+      "pw1": 425.0,
+      "pw2": 700.0,
+      "max_pain": 715.0
     },
     "nas100_strikes": {
-      "cw1": 31476,
-      "cw2": 30036,
-      "pw1": 20778,
-      "pw2": 19338,
-      "max_pain": 29254
+      "cw1": 30324,
+      "cw2": 29705,
+      "pw1": 17534,
+      "pw2": 28880,
+      "max_pain": 29499
     },
     "needs_manual_override": false
   },
