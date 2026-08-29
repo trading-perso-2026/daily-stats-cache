@@ -1,66 +1,37 @@
 {
-  "generated_at": "2026-08-29T01:37:51.457222Z",
+  "generated_at": "2026-08-29T11:26:42.713482Z",
   "prediction_date": "2026-08-28",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 32,
-    "py_confidence": 38,
+    "py_bias_strength": 14,
+    "py_confidence": 36,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 66.1,
-      "bear_prob": 33.9,
+      "bull_prob": 57.01,
+      "bear_prob": 42.99,
       "bias_label": "BULLISH",
-      "type_proba_max": 45.03
+      "type_proba_max": 59.92
     }
   },
   "prices": {
-    "nas100": 29483.0,
+    "nas100": 29491.75,
     "qqq": 716.4500122070312,
-    "vix": 14.399999618530273,
-    "ratio": 41.151510220758226
+    "vix": 14.420000076293945,
+    "ratio": 41.16372321517642
   },
   "news": {
     "ok": true,
-    "count": 4,
-    "list": [
-      {
-        "title": "Fed Chairman Warsh Speaks",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "Prelim Benchmark Payrolls Revision",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "Revised UoM Consumer Sentiment",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "Revised UoM Inflation Expectations",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -212.0
+    "diff": -204.0
   },
   "cot": {
     "ok": false,
@@ -71,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-09-04",
+    "expiration": "2026-09-11",
     "qqq_strikes": {
-      "cw1": 735.0,
-      "cw2": 720.0,
-      "pw1": 425.0,
-      "pw2": 700.0,
+      "cw1": 750.0,
+      "cw2": 740.0,
+      "pw1": 680.0,
+      "pw2": 705.0,
       "max_pain": 715.0
     },
     "nas100_strikes": {
-      "cw1": 30246,
-      "cw2": 29629,
-      "pw1": 17489,
-      "pw2": 28806,
-      "max_pain": 29423
+      "cw1": 30873,
+      "cw2": 30461,
+      "pw1": 27991,
+      "pw2": 29020,
+      "max_pain": 29432
     },
     "needs_manual_override": false
   },
