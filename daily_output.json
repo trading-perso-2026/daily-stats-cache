@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-30T10:13:28.677767Z",
+  "generated_at": "2026-08-30T12:40:13.249250Z",
   "prediction_date": "2026-08-28",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 1,
-    "py_bias_strength": 34,
-    "py_confidence": 39,
+    "py_bias": 0,
+    "py_bias_strength": 6,
+    "py_confidence": 27,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 67.06,
-      "bear_prob": 32.94,
-      "bias_label": "BULLISH",
-      "type_proba_max": 44.78
+      "bull_prob": 46.64,
+      "bear_prob": 53.36,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 48.83
     }
   },
   "prices": {
