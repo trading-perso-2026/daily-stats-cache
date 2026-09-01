@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T20:08:59.402461Z",
+  "generated_at": "2026-09-01T20:53:12.026073Z",
   "prediction_date": "2026-09-01",
   "ml": {
     "py_day_quality": 0,
@@ -105,22 +105,22 @@
     "tv_update1_scenario_holds": true
   },
   "postlunch": {
-    "generated_at": "2026-09-01T20:08:59.061289Z",
+    "generated_at": "2026-09-01T20:53:10.573942Z",
     "ok": true,
     "prix_open_ny": 29111.75,
     "prix_lunch": 29295.5,
-    "prix_current": 29120.25,
+    "prix_current": 29145.0,
     "mouvement_am": 183.8,
-    "mouvement_pm": -175.2,
-    "amplitude_pm": 175.2,
+    "mouvement_pm": -150.5,
+    "amplitude_pm": 150.5,
     "sens_am": 1,
     "sens_pm": -1,
     "type_pm": "reversal",
-    "explication": "PM dans le sens OPPOSÉ à AM, amplitude 175 > 50 → REVERSAL",
-    "target_pm": 29060,
+    "explication": "PM dans le sens OPPOSÉ à AM, amplitude 150 > 50 → REVERSAL",
+    "target_pm": 29085,
     "doit_activer": true,
     "tv_update2_active": true,
     "tv_update2_type": "reversal",
-    "tv_update2_target_pm": 29060
+    "tv_update2_target_pm": 29085
   }
 }
