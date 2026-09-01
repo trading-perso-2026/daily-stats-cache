@@ -1,37 +1,59 @@
 {
-  "generated_at": "2026-08-31T22:42:10.048842Z",
-  "prediction_date": "2026-08-31",
+  "generated_at": "2026-09-01T09:42:24.085163Z",
+  "prediction_date": "2026-09-01",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 30,
-    "py_confidence": 37,
+    "py_bias_strength": 19,
+    "py_confidence": 27,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 65.09,
-      "bear_prob": 34.91,
+      "bull_prob": 59.84,
+      "bear_prob": 40.16,
       "bias_label": "BULLISH",
-      "type_proba_max": 45.16
+      "type_proba_max": 36.4
     }
   },
   "prices": {
-    "nas100": 29375.75,
-    "qqq": 714.2100219726562,
-    "vix": 15.270000457763672,
-    "ratio": 41.13040855806509
+    "nas100": 29203.75,
+    "qqq": 716.8599853515625,
+    "vix": 15.920000076293945,
+    "ratio": 40.738429535410454
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 3,
+    "list": [
+      {
+        "title": "ISM Manufacturing PMI",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "ISM Manufacturing Prices",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "JOLTS Job Openings",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      }
+    ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -116.0
+    "diff": -309.25
   },
   "cot": {
     "ok": false,
@@ -44,18 +66,18 @@
     "ok": true,
     "expiration": "2026-09-04",
     "qqq_strikes": {
-      "cw1": 735.0,
-      "cw2": 720.0,
-      "pw1": 425.0,
-      "pw2": 700.0,
-      "max_pain": 715.0
+      "cw1": 400.0,
+      "cw2": 405.0,
+      "pw1": 400.0,
+      "pw2": 405.0,
+      "max_pain": 400.0
     },
     "nas100_strikes": {
-      "cw1": 30231,
-      "cw2": 29614,
-      "pw1": 17480,
-      "pw2": 28791,
-      "max_pain": 29408
+      "cw1": 16295,
+      "cw2": 16499,
+      "pw1": 16295,
+      "pw2": 16499,
+      "max_pain": 16295
     },
     "needs_manual_override": false
   },
