@@ -1,59 +1,45 @@
 {
-  "generated_at": "2026-09-01T20:53:12.026073Z",
-  "prediction_date": "2026-09-01",
+  "generated_at": "2026-09-02T07:51:25.431845Z",
+  "prediction_date": "2026-09-02",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 0,
-    "py_bias_strength": 4,
-    "py_confidence": 19,
+    "py_bias_strength": 9,
+    "py_confidence": 24,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 47.88,
-      "bear_prob": 52.12,
+      "bull_prob": 45.09,
+      "bear_prob": 54.91,
       "bias_label": "NEUTRAL",
-      "type_proba_max": 35.15
+      "type_proba_max": 40.22
     }
   },
   "prices": {
-    "nas100": 29116.25,
-    "qqq": 706.3599853515625,
-    "vix": 15.920000076293945,
-    "ratio": 41.22012940117007
+    "nas100": 29070.5,
+    "qqq": 707.655029296875,
+    "vix": 16.40999984741211,
+    "ratio": 41.08004436693456
   },
   "news": {
     "ok": true,
-    "count": 3,
+    "count": 1,
     "list": [
       {
-        "title": "ISM Manufacturing PMI",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "ISM Manufacturing Prices",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "JOLTS Job Openings",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
+        "title": "ADP Non-Farm Employment Change",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "08:15",
+        "hhmm_utc": 815
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -396.75
+    "diff": -53.25
   },
   "cot": {
     "ok": false,
@@ -66,18 +52,18 @@
     "ok": true,
     "expiration": "2026-09-04",
     "qqq_strikes": {
-      "cw1": 735.0,
-      "cw2": 720.0,
-      "pw1": 625.0,
-      "pw2": 425.0,
-      "max_pain": 715.0
+      "cw1": 400.0,
+      "cw2": 405.0,
+      "pw1": 400.0,
+      "pw2": 405.0,
+      "max_pain": 400.0
     },
     "nas100_strikes": {
-      "cw1": 30297,
-      "cw2": 29678,
-      "pw1": 25763,
-      "pw2": 17519,
-      "max_pain": 29472
+      "cw1": 16432,
+      "cw2": 16637,
+      "pw1": 16432,
+      "pw2": 16637,
+      "max_pain": 16432
     },
     "needs_manual_override": false
   },
