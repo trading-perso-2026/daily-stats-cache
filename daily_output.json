@@ -1,45 +1,52 @@
 {
-  "generated_at": "2026-09-02T20:52:24.856618Z",
-  "prediction_date": "2026-09-02",
+  "generated_at": "2026-09-03T06:37:56.517885Z",
+  "prediction_date": "2026-09-03",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 13,
-    "py_confidence": 26,
+    "py_bias_strength": 27,
+    "py_confidence": 34,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 56.7,
-      "bear_prob": 43.3,
+      "bull_prob": 63.96,
+      "bear_prob": 36.04,
       "bias_label": "BULLISH",
-      "type_proba_max": 39.02
+      "type_proba_max": 41.39
     }
   },
   "prices": {
-    "nas100": 29067.5,
-    "qqq": 707.655029296875,
-    "vix": 16.18000030517578,
-    "ratio": 41.075805013187605
+    "nas100": 29170.5,
+    "qqq": 709.25,
+    "vix": 15.229999542236328,
+    "ratio": 41.128657032076134
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 2,
     "list": [
       {
-        "title": "ADP Non-Farm Employment Change",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:15",
-        "hhmm_utc": 815
+        "title": "Unemployment Claims",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "ISM Services PMI",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -58.0
+    "bias": "Flat",
+    "diff": -15.75
   },
   "cot": {
     "ok": false,
@@ -52,18 +59,18 @@
     "ok": true,
     "expiration": "2026-09-04",
     "qqq_strikes": {
-      "cw1": 735.0,
-      "cw2": 715.0,
-      "pw1": 625.0,
-      "pw2": 425.0,
-      "max_pain": 712.0
+      "cw1": 400.0,
+      "cw2": 405.0,
+      "pw1": 400.0,
+      "pw2": 405.0,
+      "max_pain": 400.0
     },
     "nas100_strikes": {
-      "cw1": 30191,
-      "cw2": 29369,
-      "pw1": 25672,
-      "pw2": 17457,
-      "max_pain": 29246
+      "cw1": 16451,
+      "cw2": 16657,
+      "pw1": 16451,
+      "pw2": 16657,
+      "max_pain": 16451
     },
     "needs_manual_override": false
   },
