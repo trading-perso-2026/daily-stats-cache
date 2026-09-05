@@ -1,59 +1,37 @@
 {
-  "generated_at": "2026-09-04T20:37:14.159669Z",
+  "generated_at": "2026-09-05T08:44:51.656992Z",
   "prediction_date": "2026-09-04",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 24,
-    "py_confidence": 39,
+    "py_bias_strength": 35,
+    "py_confidence": 43,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 62.3,
-      "bear_prob": 37.7,
+      "bull_prob": 67.77,
+      "bear_prob": 32.23,
       "bias_label": "BULLISH",
-      "type_proba_max": 54.39
+      "type_proba_max": 51.69
     }
   },
   "prices": {
-    "nas100": 29575.75,
-    "qqq": 717.6099853515625,
-    "vix": 14.199999809265137,
-    "ratio": 41.214239773308925
+    "nas100": 29565.25,
+    "qqq": 719.0599975585938,
+    "vix": 14.520000457763672,
+    "ratio": 41.1165272722473
   },
   "news": {
     "ok": true,
-    "count": 3,
-    "list": [
-      {
-        "title": "Average Hourly Earnings m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Non-Farm Employment Change",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Unemployment Rate",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 51.0
+    "diff": 40.5
   },
   "cot": {
     "ok": false,
@@ -64,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-09-04",
+    "expiration": "2026-09-18",
     "qqq_strikes": {
-      "cw1": 735.0,
-      "cw2": 730.0,
-      "pw1": 625.0,
-      "pw2": 425.0,
-      "max_pain": 715.0
+      "cw1": 800.0,
+      "cw2": 750.0,
+      "pw1": 660.0,
+      "pw2": 700.0,
+      "max_pain": 700.0
     },
     "nas100_strikes": {
-      "cw1": 30292,
-      "cw2": 30086,
-      "pw1": 25759,
-      "pw2": 17516,
-      "max_pain": 29468
+      "cw1": 32893,
+      "cw2": 30837,
+      "pw1": 27137,
+      "pw2": 28782,
+      "max_pain": 28782
     },
     "needs_manual_override": false
   },
