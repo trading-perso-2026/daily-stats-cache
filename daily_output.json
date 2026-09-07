@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T09:53:38.078668Z",
+  "generated_at": "2026-09-07T13:21:48.709220Z",
   "prediction_date": "2026-09-07",
   "ml": {
     "py_day_quality": 0,
@@ -11,16 +11,16 @@
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 60.62,
-      "bear_prob": 39.38,
+      "bull_prob": 60.61,
+      "bear_prob": 39.39,
       "bias_label": "BULLISH",
-      "type_proba_max": 51.7
+      "type_proba_max": 51.71
     }
   },
   "prices": {
     "nas100": 29565.25,
     "qqq": 719.0599975585938,
-    "vix": 15.0600004196167,
+    "vix": 15.170000076293945,
     "ratio": 41.1165272722473
   },
   "news": {
