@@ -1,45 +1,59 @@
 {
-  "generated_at": "2026-09-09T20:47:05.731684Z",
-  "prediction_date": "2026-09-09",
+  "generated_at": "2026-09-10T09:19:48.483425Z",
+  "prediction_date": "2026-09-10",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 0,
-    "py_bias_strength": 2,
-    "py_confidence": 22,
+    "py_bias": -1,
+    "py_bias_strength": 21,
+    "py_confidence": 32,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 51.5,
-      "bear_prob": 48.5,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 42.95
+      "bull_prob": 39.46,
+      "bear_prob": 60.54,
+      "bias_label": "BEARISH",
+      "type_proba_max": 44.24
     }
   },
   "prices": {
-    "nas100": 29397.25,
-    "qqq": 718.380615234375,
-    "vix": 16.260000228881836,
-    "ratio": 40.92155241467507
+    "nas100": 29411.25,
+    "qqq": 716.280029296875,
+    "vix": 16.440000534057617,
+    "ratio": 41.06110570871436
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 3,
     "list": [
       {
-        "title": "President Trump Speaks",
+        "title": "Core PPI m/m",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "PPI m/m",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Unemployment Claims",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "21:15",
-        "hhmm_utc": 2115
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -141.5
+    "diff": -37.5
   },
   "cot": {
     "ok": false,
@@ -52,18 +66,18 @@
     "ok": true,
     "expiration": "2026-09-11",
     "qqq_strikes": {
-      "cw1": 750.0,
-      "cw2": 740.0,
-      "pw1": 705.0,
-      "pw2": 631.0,
-      "max_pain": 716.0
+      "cw1": 910.0,
+      "cw2": 667.0,
+      "pw1": 400.0,
+      "pw2": 405.0,
+      "max_pain": 400.0
     },
     "nas100_strikes": {
-      "cw1": 30691,
-      "cw2": 30282,
-      "pw1": 28850,
-      "pw2": 25821,
-      "max_pain": 29300
+      "cw1": 37366,
+      "cw2": 27388,
+      "pw1": 16424,
+      "pw2": 16630,
+      "max_pain": 16424
     },
     "needs_manual_override": false
   },
