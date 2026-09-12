@@ -1,80 +1,37 @@
 {
-  "generated_at": "2026-09-11T20:48:04.998993Z",
+  "generated_at": "2026-09-12T08:58:32.152760Z",
   "prediction_date": "2026-09-11",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 1,
-    "py_bias_strength": 19,
-    "py_confidence": 31,
+    "py_bias": 0,
+    "py_bias_strength": 6,
+    "py_confidence": 26,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 59.72,
-      "bear_prob": 40.28,
-      "bias_label": "BULLISH",
-      "type_proba_max": 43.76
+      "bull_prob": 53.17,
+      "bear_prob": 46.83,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 47.11
     }
   },
   "prices": {
-    "nas100": 29385.25,
-    "qqq": 708.6599731445312,
-    "vix": 16.6299991607666,
-    "ratio": 41.46593728104759
+    "nas100": 29387.0,
+    "qqq": 714.8499755859375,
+    "vix": 15.84000015258789,
+    "ratio": 41.109325038323604
   },
   "news": {
     "ok": true,
-    "count": 6,
-    "list": [
-      {
-        "title": "Core CPI m/m",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Core CPI y/y",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "CPI m/m",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "CPI y/y",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Prelim UoM Consumer Sentiment",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "Prelim UoM Inflation Expectations",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 250.0
+    "diff": 251.75
   },
   "cot": {
     "ok": false,
@@ -85,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-09-11",
+    "expiration": "2026-09-25",
     "qqq_strikes": {
       "cw1": 715.0,
       "cw2": 720.0,
-      "pw1": 705.0,
-      "pw2": 631.0,
-      "max_pain": 712.0
+      "pw1": 690.0,
+      "pw2": 665.0,
+      "max_pain": 718.0
     },
     "nas100_strikes": {
-      "cw1": 29648,
-      "cw2": 29855,
-      "pw1": 29233,
-      "pw2": 26165,
-      "max_pain": 29524
+      "cw1": 29393,
+      "cw2": 29599,
+      "pw1": 28365,
+      "pw2": 27338,
+      "max_pain": 29516
     },
     "needs_manual_override": false
   },
