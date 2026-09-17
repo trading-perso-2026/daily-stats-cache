@@ -1,80 +1,52 @@
 {
-  "generated_at": "2026-09-16T20:25:15.729234Z",
-  "prediction_date": "2026-09-16",
+  "generated_at": "2026-09-17T07:31:39.212698Z",
+  "prediction_date": "2026-09-17",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 24,
-    "py_confidence": 37,
+    "py_bias_strength": 30,
+    "py_confidence": 42,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 62.1,
-      "bear_prob": 37.9,
+      "bull_prob": 65.38,
+      "bear_prob": 34.62,
       "bias_label": "BULLISH",
-      "type_proba_max": 50.93
+      "type_proba_max": 55.23
     }
   },
   "prices": {
-    "nas100": 29402.0,
-    "qqq": 708.5,
-    "vix": 16.739999771118164,
-    "ratio": 41.49894142554693
+    "nas100": 29522.25,
+    "qqq": 704.75,
+    "vix": 16.040000915527344,
+    "ratio": 41.89038666193686
   },
   "news": {
     "ok": true,
-    "count": 6,
+    "count": 2,
     "list": [
       {
-        "title": "Core Retail Sales m/m",
+        "title": "Philly Fed Manufacturing Index",
         "impact": 1,
         "flag": "🟠",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       },
       {
-        "title": "Retail Sales m/m",
+        "title": "Unemployment Claims",
         "impact": 1,
         "flag": "🟠",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
-      },
-      {
-        "title": "Federal Funds Rate",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "14:00",
-        "hhmm_utc": 1400
-      },
-      {
-        "title": "FOMC Economic Projections",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "14:00",
-        "hhmm_utc": 1400
-      },
-      {
-        "title": "FOMC Statement",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "14:00",
-        "hhmm_utc": 1400
-      },
-      {
-        "title": "FOMC Press Conference",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "14:30",
-        "hhmm_utc": 1430
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 447.0
+    "diff": 558.75
   },
   "cot": {
     "ok": false,
@@ -87,18 +59,18 @@
     "ok": true,
     "expiration": "2026-09-18",
     "qqq_strikes": {
-      "cw1": 800.0,
-      "cw2": 750.0,
-      "pw1": 700.0,
-      "pw2": 570.0,
-      "max_pain": 700.0
+      "cw1": 1050.0,
+      "cw2": 970.0,
+      "pw1": 230.0,
+      "pw2": 225.0,
+      "max_pain": 230.0
     },
     "nas100_strikes": {
-      "cw1": 33199,
-      "cw2": 31124,
-      "pw1": 29049,
-      "pw2": 23654,
-      "max_pain": 29049
+      "cw1": 43985,
+      "cw2": 40634,
+      "pw1": 9635,
+      "pw2": 9425,
+      "max_pain": 9635
     },
     "needs_manual_override": false
   },
