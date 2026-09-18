@@ -1,52 +1,37 @@
 {
-  "generated_at": "2026-09-17T21:10:52.582332Z",
-  "prediction_date": "2026-09-17",
+  "generated_at": "2026-09-18T09:20:11.719984Z",
+  "prediction_date": "2026-09-18",
   "ml": {
-    "py_day_quality": 0,
+    "py_day_quality": 1,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 30,
-    "py_confidence": 44,
+    "py_bias_strength": 49,
+    "py_confidence": 58,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 65.45,
-      "bear_prob": 34.55,
+      "bull_prob": 74.75,
+      "bear_prob": 25.25,
       "bias_label": "BULLISH",
-      "type_proba_max": 58.49
+      "type_proba_max": 68.47
     }
   },
   "prices": {
-    "nas100": 29659.75,
-    "qqq": 714.02001953125,
-    "vix": 15.430000305175781,
-    "ratio": 41.539101409889675
+    "nas100": 29892.0,
+    "qqq": 716.8699951171875,
+    "vix": 15.220000267028809,
+    "ratio": 41.69793714844143
   },
   "news": {
     "ok": true,
-    "count": 2,
-    "list": [
-      {
-        "title": "Philly Fed Manufacturing Index",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Unemployment Claims",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 696.25
+    "diff": 441.25
   },
   "cot": {
     "ok": false,
@@ -59,18 +44,18 @@
     "ok": true,
     "expiration": "2026-09-18",
     "qqq_strikes": {
-      "cw1": 800.0,
-      "cw2": 750.0,
-      "pw1": 700.0,
-      "pw2": 570.0,
-      "max_pain": 700.0
+      "cw1": 1050.0,
+      "cw2": 970.0,
+      "pw1": 230.0,
+      "pw2": 225.0,
+      "max_pain": 230.0
     },
     "nas100_strikes": {
-      "cw1": 33231,
-      "cw2": 31154,
-      "pw1": 29077,
-      "pw2": 23677,
-      "max_pain": 29077
+      "cw1": 43783,
+      "cw2": 40447,
+      "pw1": 9591,
+      "pw2": 9382,
+      "max_pain": 9591
     },
     "needs_manual_override": false
   },
