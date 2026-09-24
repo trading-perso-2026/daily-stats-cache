@@ -1,37 +1,45 @@
 {
-  "generated_at": "2026-09-23T21:21:23.321449Z",
-  "prediction_date": "2026-09-23",
+  "generated_at": "2026-09-24T09:40:09.197381Z",
+  "prediction_date": "2026-09-24",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 0,
-    "py_bias_strength": 6,
-    "py_confidence": 36,
+    "py_bias": 1,
+    "py_bias_strength": 11,
+    "py_confidence": 29,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 46.9,
-      "bear_prob": 53.1,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 67.12
+      "bull_prob": 56.0,
+      "bear_prob": 44.0,
+      "bias_label": "BULLISH",
+      "type_proba_max": 47.1
     }
   },
   "prices": {
-    "nas100": 30917.5,
-    "qqq": 743.9000244140625,
-    "vix": 14.170000076293945,
-    "ratio": 41.56136441096687
+    "nas100": 30433.75,
+    "qqq": 741.1699829101562,
+    "vix": 16.229999542236328,
+    "ratio": 41.06176815270343
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 1,
+    "list": [
+      {
+        "title": "Unemployment Claims",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      }
+    ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -111.0
+    "diff": -322.5
   },
   "cot": {
     "ok": false,
@@ -44,17 +52,17 @@
     "ok": true,
     "expiration": "2026-09-25",
     "qqq_strikes": {
-      "cw1": 729.0,
-      "cw2": 739.0,
-      "pw1": 690.0,
-      "pw2": 665.0,
+      "cw1": 950.0,
+      "cw2": 935.0,
+      "pw1": 450.0,
+      "pw2": 455.0,
       "max_pain": 0.0
     },
     "nas100_strikes": {
-      "cw1": 30298,
-      "cw2": 30714,
-      "pw1": 28677,
-      "pw2": 27638,
+      "cw1": 39009,
+      "cw2": 38393,
+      "pw1": 18478,
+      "pw2": 18683,
       "max_pain": 0
     },
     "needs_manual_override": false
