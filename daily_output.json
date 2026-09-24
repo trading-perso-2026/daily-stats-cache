@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-24T12:36:41.330782Z",
+  "generated_at": "2026-09-24T13:43:57.625029Z",
   "prediction_date": "2026-09-24",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 1,
-    "py_bias_strength": 13,
-    "py_confidence": 30,
+    "py_bias": 0,
+    "py_bias_strength": 7,
+    "py_confidence": 27,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 56.56,
-      "bear_prob": 43.44,
-      "bias_label": "BULLISH",
-      "type_proba_max": 47.19
+      "bull_prob": 53.89,
+      "bear_prob": 46.11,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 48.38
     }
   },
   "prices": {
-    "nas100": 30463.25,
-    "qqq": 741.1699829101562,
-    "vix": 15.949999809265137,
-    "ratio": 41.101570088399974
+    "nas100": 30526.25,
+    "qqq": 736.4349975585938,
+    "vix": 15.869999885559082,
+    "ratio": 41.45138416995345
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 2,
     "list": [
       {
         "title": "Unemployment Claims",
@@ -33,13 +33,20 @@
         "flag": "🟠",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
+      },
+      {
+        "title": "President Trump Speaks",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:15",
+        "hhmm_utc": 1015
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -301.5
+    "diff": -238.5
   },
   "cot": {
     "ok": false,
@@ -59,10 +66,10 @@
       "max_pain": 0.0
     },
     "nas100_strikes": {
-      "cw1": 31032,
-      "cw2": 30826,
-      "pw1": 28360,
-      "pw2": 27333,
+      "cw1": 31296,
+      "cw2": 31089,
+      "pw1": 28601,
+      "pw2": 27565,
       "max_pain": 0
     },
     "needs_manual_override": false
