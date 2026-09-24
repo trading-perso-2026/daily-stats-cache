@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T18:31:15.895942Z",
+  "generated_at": "2026-09-24T20:36:56.972634Z",
   "prediction_date": "2026-09-24",
   "ml": {
     "py_day_quality": 0,
@@ -98,22 +98,22 @@
     "tv_update1_scenario_holds": true
   },
   "postlunch": {
-    "generated_at": "2026-09-23T21:21:22.673541Z",
+    "generated_at": "2026-09-24T20:36:56.519215Z",
     "ok": true,
-    "prix_open_ny": 31005.5,
-    "prix_lunch": 30747.0,
-    "prix_current": 30776.0,
-    "mouvement_am": -258.5,
-    "mouvement_pm": 29.0,
-    "amplitude_pm": 29.0,
-    "sens_am": -1,
+    "prix_open_ny": 30519.0,
+    "prix_lunch": 30554.0,
+    "prix_current": 30671.25,
+    "mouvement_am": 35.0,
+    "mouvement_pm": 117.2,
+    "amplitude_pm": 117.2,
+    "sens_am": 1,
     "sens_pm": 1,
-    "type_pm": "range",
-    "explication": "Amplitude PM (29 pts) < 30 → RANGE",
-    "target_pm": 30776,
-    "doit_activer": false,
-    "tv_update2_active": false,
-    "tv_update2_type": "range",
-    "tv_update2_target_pm": 30776
+    "type_pm": "continuation",
+    "explication": "PM dans le MÊME sens que AM, amplitude 117 > 30 → CONTINUATION",
+    "target_pm": 30721,
+    "doit_activer": true,
+    "tv_update2_active": true,
+    "tv_update2_type": "continuation",
+    "tv_update2_target_pm": 30721
   }
 }
