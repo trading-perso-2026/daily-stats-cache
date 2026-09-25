@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-09-24T21:22:48.262747Z",
-  "prediction_date": "2026-09-24",
+  "generated_at": "2026-09-25T09:57:29.001738Z",
+  "prediction_date": "2026-09-25",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 0,
-    "py_bias_strength": 7,
-    "py_confidence": 27,
+    "py_bias_strength": 5,
+    "py_confidence": 35,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 53.89,
-      "bear_prob": 46.11,
+      "bull_prob": 52.9,
+      "bear_prob": 47.1,
       "bias_label": "NEUTRAL",
-      "type_proba_max": 48.38
+      "type_proba_max": 65.62
     }
   },
   "prices": {
-    "nas100": 30526.25,
-    "qqq": 736.4349975585938,
-    "vix": 15.869999885559082,
-    "ratio": 41.45138416995345
+    "nas100": 30918.5,
+    "qqq": 741.0599975585938,
+    "vix": 15.319999694824219,
+    "ratio": 41.721992958546316
   },
   "news": {
     "ok": true,
     "count": 2,
     "list": [
       {
-        "title": "Unemployment Claims",
+        "title": "Revised UoM Consumer Sentiment",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       },
       {
-        "title": "President Trump Speaks",
+        "title": "Revised UoM Inflation Expectations",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "10:15",
-        "hhmm_utc": 1015
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -238.5
+    "bias": "Up",
+    "diff": 151.75
   },
   "cot": {
     "ok": false,
@@ -59,17 +59,17 @@
     "ok": true,
     "expiration": "2026-09-25",
     "qqq_strikes": {
-      "cw1": 755.0,
-      "cw2": 750.0,
-      "pw1": 690.0,
-      "pw2": 665.0,
+      "cw1": 950.0,
+      "cw2": 935.0,
+      "pw1": 450.0,
+      "pw2": 455.0,
       "max_pain": 0.0
     },
     "nas100_strikes": {
-      "cw1": 31296,
-      "cw2": 31089,
-      "pw1": 28601,
-      "pw2": 27565,
+      "cw1": 39636,
+      "cw2": 39010,
+      "pw1": 18775,
+      "pw2": 18984,
       "max_pain": 0
     },
     "needs_manual_override": false
