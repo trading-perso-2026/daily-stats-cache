@@ -1,52 +1,37 @@
 {
-  "generated_at": "2026-09-25T21:22:47.015123Z",
+  "generated_at": "2026-09-26T09:39:41.876035Z",
   "prediction_date": "2026-09-25",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 1,
-    "py_bias_strength": 12,
-    "py_confidence": 38,
+    "py_bias": 0,
+    "py_bias_strength": 4,
+    "py_confidence": 35,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 56.03,
-      "bear_prob": 43.97,
-      "bias_label": "BULLISH",
-      "type_proba_max": 64.82
+      "bull_prob": 47.9,
+      "bear_prob": 52.1,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 66.22
     }
   },
   "prices": {
-    "nas100": 30913.75,
-    "qqq": 741.3150024414062,
-    "vix": 15.1899995803833,
-    "ratio": 41.70123348130059
+    "nas100": 30889.25,
+    "qqq": 744.4400024414062,
+    "vix": 14.869999885559082,
+    "ratio": 41.49326997299725
   },
   "news": {
     "ok": true,
-    "count": 2,
-    "list": [
-      {
-        "title": "Revised UoM Consumer Sentiment",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "Revised UoM Inflation Expectations",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 147.0
+    "diff": 122.5
   },
   "cot": {
     "ok": false,
@@ -57,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-09-25",
+    "expiration": "2026-10-09",
     "qqq_strikes": {
-      "cw1": 755.0,
+      "cw1": 748.0,
       "cw2": 750.0,
-      "pw1": 690.0,
-      "pw2": 665.0,
-      "max_pain": 0.0
+      "pw1": 730.0,
+      "pw2": 680.0,
+      "max_pain": 790.0
     },
     "nas100_strikes": {
-      "cw1": 31484,
-      "cw2": 31276,
-      "pw1": 28774,
-      "pw2": 27731,
-      "max_pain": 0
+      "cw1": 31037,
+      "cw2": 31120,
+      "pw1": 30290,
+      "pw2": 28215,
+      "max_pain": 32780
     },
     "needs_manual_override": false
   },
