@@ -1,37 +1,52 @@
 {
-  "generated_at": "2026-09-28T23:06:46.073453Z",
-  "prediction_date": "2026-09-28",
+  "generated_at": "2026-09-29T09:23:08.184013Z",
+  "prediction_date": "2026-09-29",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 1,
-    "py_bias_strength": 14,
-    "py_confidence": 26,
+    "py_bias": 0,
+    "py_bias_strength": 4,
+    "py_confidence": 21,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 57.03,
-      "bear_prob": 42.97,
-      "bias_label": "BULLISH",
-      "type_proba_max": 38.3
+      "bull_prob": 47.54,
+      "bear_prob": 52.46,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 38.97
     }
   },
   "prices": {
-    "nas100": 30610.0,
-    "qqq": 737.5449829101562,
-    "vix": 15.989999771118164,
-    "ratio": 41.50255334830031
+    "nas100": 30579.75,
+    "qqq": 736.5399780273438,
+    "vix": 16.079999923706055,
+    "ratio": 41.51811295009534
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 2,
+    "list": [
+      {
+        "title": "CB Consumer Confidence",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "JOLTS Job Openings",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      }
+    ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -279.25
+    "bias": "Flat",
+    "diff": 18.5
   },
   "cot": {
     "ok": false,
@@ -44,18 +59,18 @@
     "ok": true,
     "expiration": "2026-10-02",
     "qqq_strikes": {
-      "cw1": 725.0,
-      "cw2": 745.0,
-      "pw1": 730.0,
-      "pw2": 690.0,
-      "max_pain": 730.0
+      "cw1": 490.0,
+      "cw2": 495.0,
+      "pw1": 450.0,
+      "pw2": 455.0,
+      "max_pain": 450.0
     },
     "nas100_strikes": {
-      "cw1": 30089,
-      "cw2": 30919,
-      "pw1": 30297,
-      "pw2": 28637,
-      "max_pain": 30297
+      "cw1": 20344,
+      "cw2": 20551,
+      "pw1": 18683,
+      "pw2": 18891,
+      "max_pain": 18683
     },
     "needs_manual_override": false
   },
