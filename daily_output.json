@@ -1,52 +1,80 @@
 {
-  "generated_at": "2026-09-29T22:06:01.525186Z",
-  "prediction_date": "2026-09-29",
+  "generated_at": "2026-09-30T10:51:29.495246Z",
+  "prediction_date": "2026-09-30",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 0,
-    "py_bias_strength": 0,
-    "py_confidence": 22,
+    "py_bias": -1,
+    "py_bias_strength": 21,
+    "py_confidence": 28,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 50.2,
-      "bear_prob": 49.8,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 44.38
+      "bull_prob": 39.29,
+      "bear_prob": 60.71,
+      "bias_label": "BEARISH",
+      "type_proba_max": 36.91
     }
   },
   "prices": {
-    "nas100": 30687.5,
-    "qqq": 738.7100219726562,
-    "vix": 15.930000305175781,
-    "ratio": 41.542011191417025
+    "nas100": 30590.75,
+    "qqq": 737.9600219726562,
+    "vix": 16.100000381469727,
+    "ratio": 41.453126306527054
   },
   "news": {
     "ok": true,
-    "count": 2,
+    "count": 6,
     "list": [
       {
-        "title": "CB Consumer Confidence",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
+        "title": "ADP Non-Farm Employment Change",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "08:15",
+        "hhmm_utc": 815
       },
       {
-        "title": "JOLTS Job Openings",
+        "title": "Core PCE Price Index m/m",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Final GDP q/q",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Final GDP Price Index q/q",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "President Trump Speaks",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "15:30",
+        "hhmm_utc": 1530
+      },
+      {
+        "title": "FOMC Member Kashkari Speaks",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "18:00",
+        "hhmm_utc": 1800
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 121.25
+    "bias": "Flat",
+    "diff": -22.5
   },
   "cot": {
     "ok": false,
@@ -59,18 +87,18 @@
     "ok": true,
     "expiration": "2026-10-02",
     "qqq_strikes": {
-      "cw1": 725.0,
-      "cw2": 745.0,
-      "pw1": 730.0,
-      "pw2": 690.0,
-      "max_pain": 730.0
+      "cw1": 754.0,
+      "cw2": 732.0,
+      "pw1": 540.0,
+      "pw2": 525.0,
+      "max_pain": 734.0
     },
     "nas100_strikes": {
-      "cw1": 30118,
-      "cw2": 30949,
-      "pw1": 30326,
-      "pw2": 28664,
-      "max_pain": 30326
+      "cw1": 31256,
+      "cw2": 30344,
+      "pw1": 22385,
+      "pw2": 21763,
+      "max_pain": 30427
     },
     "needs_manual_override": false
   },
