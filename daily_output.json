@@ -1,80 +1,59 @@
 {
-  "generated_at": "2026-09-30T22:05:23.494959Z",
-  "prediction_date": "2026-09-30",
+  "generated_at": "2026-10-01T07:37:41.657196Z",
+  "prediction_date": "2026-10-01",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 1,
-    "py_bias_strength": 13,
-    "py_confidence": 30,
+    "py_bias": 0,
+    "py_bias_strength": 7,
+    "py_confidence": 24,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 56.56,
-      "bear_prob": 43.44,
-      "bias_label": "BULLISH",
-      "type_proba_max": 47.3
+      "bull_prob": 46.5,
+      "bear_prob": 53.5,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 41.2
     }
   },
   "prices": {
-    "nas100": 30835.25,
-    "qqq": 743.719970703125,
-    "vix": 15.829999923706055,
-    "ratio": 41.46083366680049
+    "nas100": 30844.25,
+    "qqq": 739.7000122070312,
+    "vix": 16.489999771118164,
+    "ratio": 41.698322956586814
   },
   "news": {
     "ok": true,
-    "count": 6,
+    "count": 3,
     "list": [
       {
-        "title": "ADP Non-Farm Employment Change",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:15",
-        "hhmm_utc": 815
-      },
-      {
-        "title": "Core PCE Price Index m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Final GDP q/q",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Final GDP Price Index q/q",
+        "title": "Unemployment Claims",
         "impact": 1,
         "flag": "🟠",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       },
       {
-        "title": "President Trump Speaks",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "15:30",
-        "hhmm_utc": 1530
-      },
-      {
-        "title": "FOMC Member Kashkari Speaks",
+        "title": "FOMC Member Waller Speaks",
         "impact": 3,
         "flag": "🔥",
-        "time_utc_str": "18:00",
-        "hhmm_utc": 1800
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "ISM Manufacturing PMI",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 219.0
+    "diff": 145.5
   },
   "cot": {
     "ok": false,
@@ -87,18 +66,18 @@
     "ok": true,
     "expiration": "2026-10-02",
     "qqq_strikes": {
-      "cw1": 725.0,
-      "cw2": 745.0,
-      "pw1": 730.0,
-      "pw2": 690.0,
-      "max_pain": 730.0
+      "cw1": 490.0,
+      "cw2": 495.0,
+      "pw1": 450.0,
+      "pw2": 455.0,
+      "max_pain": 450.0
     },
     "nas100_strikes": {
-      "cw1": 30059,
-      "cw2": 30888,
-      "pw1": 30266,
-      "pw2": 28608,
-      "max_pain": 30266
+      "cw1": 20432,
+      "cw2": 20641,
+      "pw1": 18764,
+      "pw2": 18973,
+      "max_pain": 18764
     },
     "needs_manual_override": false
   },
