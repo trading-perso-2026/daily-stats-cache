@@ -1,59 +1,59 @@
 {
-  "generated_at": "2026-10-01T22:32:32.970840Z",
-  "prediction_date": "2026-10-01",
+  "generated_at": "2026-10-02T10:50:30.653550Z",
+  "prediction_date": "2026-10-02",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 16,
-    "py_confidence": 28,
+    "py_bias_strength": 23,
+    "py_confidence": 37,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 58.13,
-      "bear_prob": 41.87,
+      "bull_prob": 61.97,
+      "bear_prob": 38.03,
       "bias_label": "BULLISH",
-      "type_proba_max": 40.81
+      "type_proba_max": 52.76
     }
   },
   "prices": {
-    "nas100": 30656.75,
-    "qqq": 737.1500244140625,
-    "vix": 17.139999389648438,
-    "ratio": 41.58820997715912
+    "nas100": 30990.75,
+    "qqq": 742.0399780273438,
+    "vix": 15.979999542236328,
+    "ratio": 41.7642592281706
   },
   "news": {
     "ok": true,
     "count": 3,
     "list": [
       {
-        "title": "Unemployment Claims",
-        "impact": 1,
-        "flag": "🟠",
+        "title": "Average Hourly Earnings m/m",
+        "impact": 2,
+        "flag": "🔴",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
       },
       {
-        "title": "FOMC Member Waller Speaks",
+        "title": "Non-Farm Employment Change",
         "impact": 3,
         "flag": "🔥",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       },
       {
-        "title": "ISM Manufacturing PMI",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
+        "title": "Unemployment Rate",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -42.0
+    "bias": "Up",
+    "diff": 230.25
   },
   "cot": {
     "ok": false,
@@ -66,18 +66,18 @@
     "ok": true,
     "expiration": "2026-10-02",
     "qqq_strikes": {
-      "cw1": 725.0,
-      "cw2": 745.0,
-      "pw1": 730.0,
-      "pw2": 715.0,
-      "max_pain": 735.0
+      "cw1": 745.0,
+      "cw2": 750.0,
+      "pw1": 715.0,
+      "pw2": 738.0,
+      "max_pain": 738.0
     },
     "nas100_strikes": {
-      "cw1": 30151,
-      "cw2": 30983,
-      "pw1": 30359,
-      "pw2": 29736,
-      "max_pain": 30567
+      "cw1": 31114,
+      "cw2": 31323,
+      "pw1": 29861,
+      "pw2": 30822,
+      "max_pain": 30822
     },
     "needs_manual_override": false
   },
