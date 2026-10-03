@@ -1,59 +1,37 @@
 {
-  "generated_at": "2026-10-02T22:01:57.868184Z",
+  "generated_at": "2026-10-03T10:09:49.635709Z",
   "prediction_date": "2026-10-02",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": -1,
-    "py_bias_strength": 28,
-    "py_confidence": 45,
+    "py_bias": 1,
+    "py_bias_strength": 22,
+    "py_confidence": 36,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 35.77,
-      "bear_prob": 64.23,
-      "bias_label": "BEARISH",
-      "type_proba_max": 63.46
+      "bull_prob": 61.11,
+      "bear_prob": 38.89,
+      "bias_label": "BULLISH",
+      "type_proba_max": 51.21
     }
   },
   "prices": {
-    "nas100": 31231.5,
-    "qqq": 752.280029296875,
-    "vix": 15.4399995803833,
-    "ratio": 41.51579037554777
+    "nas100": 31061.75,
+    "qqq": 749.530029296875,
+    "vix": 15.3100004196167,
+    "ratio": 41.441635139206696
   },
   "news": {
     "ok": true,
-    "count": 3,
-    "list": [
-      {
-        "title": "Average Hourly Earnings m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Non-Farm Employment Change",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Unemployment Rate",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 469.0
+    "diff": 301.25
   },
   "cot": {
     "ok": false,
@@ -64,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-10-02",
+    "expiration": "2026-10-16",
     "qqq_strikes": {
-      "cw1": 725.0,
-      "cw2": 745.0,
-      "pw1": 730.0,
-      "pw2": 725.0,
-      "max_pain": 738.0
+      "cw1": 760.0,
+      "cw2": 775.0,
+      "pw1": 700.0,
+      "pw2": 670.0,
+      "max_pain": 725.0
     },
     "nas100_strikes": {
-      "cw1": 30099,
-      "cw2": 30929,
-      "pw1": 30307,
-      "pw2": 30099,
-      "max_pain": 30639
+      "cw1": 31496,
+      "cw2": 32117,
+      "pw1": 29009,
+      "pw2": 27766,
+      "max_pain": 30045
     },
     "needs_manual_override": false
   },
