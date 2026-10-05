@@ -1,37 +1,45 @@
 {
-  "generated_at": "2026-10-04T14:18:46.077512Z",
-  "prediction_date": "2026-10-02",
+  "generated_at": "2026-10-05T11:22:57.329524Z",
+  "prediction_date": "2026-10-05",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": -1,
-    "py_bias_strength": 22,
+    "py_bias_strength": 35,
     "py_confidence": 39,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 38.63,
-      "bear_prob": 61.37,
+      "bull_prob": 32.22,
+      "bear_prob": 67.78,
       "bias_label": "BEARISH",
-      "type_proba_max": 57.24
+      "type_proba_max": 43.03
     }
   },
   "prices": {
-    "nas100": 31061.75,
+    "nas100": 30994.5,
     "qqq": 749.530029296875,
-    "vix": 15.3100004196167,
-    "ratio": 41.441635139206696
+    "vix": 16.219999313354492,
+    "ratio": 41.35191224970074
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 1,
+    "list": [
+      {
+        "title": "ISM Services PMI",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      }
+    ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 301.25
+    "bias": "Down",
+    "diff": -67.5
   },
   "cot": {
     "ok": false,
@@ -42,20 +50,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-10-16",
+    "expiration": "2026-10-09",
     "qqq_strikes": {
-      "cw1": 760.0,
-      "cw2": 775.0,
-      "pw1": 700.0,
-      "pw2": 670.0,
-      "max_pain": 725.0
+      "cw1": 754.0,
+      "cw2": 760.0,
+      "pw1": 730.0,
+      "pw2": 715.0,
+      "max_pain": 742.0
     },
     "nas100_strikes": {
-      "cw1": 31496,
-      "cw2": 32117,
-      "pw1": 29009,
-      "pw2": 27766,
-      "max_pain": 30045
+      "cw1": 31179,
+      "cw2": 31427,
+      "pw1": 30187,
+      "pw2": 29567,
+      "max_pain": 30683
     },
     "needs_manual_override": false
   },
