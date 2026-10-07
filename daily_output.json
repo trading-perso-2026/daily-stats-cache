@@ -1,37 +1,52 @@
 {
-  "generated_at": "2026-10-06T22:33:23.777869Z",
-  "prediction_date": "2026-10-06",
+  "generated_at": "2026-10-07T11:28:10.018038Z",
+  "prediction_date": "2026-10-07",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": -1,
-    "py_bias_strength": 14,
-    "py_confidence": 41,
+    "py_bias": 0,
+    "py_bias_strength": 5,
+    "py_confidence": 23,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 42.82,
-      "bear_prob": 57.18,
-      "bias_label": "BEARISH",
-      "type_proba_max": 69.72
+      "bull_prob": 52.95,
+      "bear_prob": 47.05,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 41.52
     }
   },
   "prices": {
-    "nas100": 31608.75,
-    "qqq": 762.4600219726562,
-    "vix": 15.329999923706055,
-    "ratio": 41.45627192127533
+    "nas100": 31258.5,
+    "qqq": 759.6099853515625,
+    "vix": 15.779999732971191,
+    "ratio": 41.15072287462486
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 2,
+    "list": [
+      {
+        "title": "President Trump Speaks",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "13:00",
+        "hhmm_utc": 1300
+      },
+      {
+        "title": "FOMC Meeting Minutes",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "14:00",
+        "hhmm_utc": 1400
+      }
+    ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 291.0
+    "bias": "Down",
+    "diff": -224.75
   },
   "cot": {
     "ok": false,
@@ -47,15 +62,15 @@
       "cw1": 754.0,
       "cw2": 760.0,
       "pw1": 730.0,
-      "pw2": 715.0,
-      "max_pain": 747.0
+      "pw2": 754.0,
+      "max_pain": 750.0
     },
     "nas100_strikes": {
-      "cw1": 31258,
-      "cw2": 31507,
-      "pw1": 30263,
-      "pw2": 29641,
-      "max_pain": 30968
+      "cw1": 31028,
+      "cw2": 31275,
+      "pw1": 30040,
+      "pw2": 31028,
+      "max_pain": 30863
     },
     "needs_manual_override": false
   },
