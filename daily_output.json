@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-10-07T22:57:09.200892Z",
-  "prediction_date": "2026-10-07",
+  "generated_at": "2026-10-08T11:43:55.188136Z",
+  "prediction_date": "2026-10-08",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 0,
-    "py_bias_strength": 1,
-    "py_confidence": 21,
+    "py_bias_strength": 2,
+    "py_confidence": 20,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 49.04,
-      "bear_prob": 50.96,
+      "bull_prob": 48.7,
+      "bear_prob": 51.3,
       "bias_label": "NEUTRAL",
-      "type_proba_max": 42.54
+      "type_proba_max": 39.96
     }
   },
   "prices": {
-    "nas100": 31287.0,
-    "qqq": 756.2100219726562,
-    "vix": 15.649999618530273,
-    "ratio": 41.37342681386905
+    "nas100": 31159.0,
+    "qqq": 757.7100219726562,
+    "vix": 15.829999923706055,
+    "ratio": 41.122591884002354
   },
   "news": {
     "ok": true,
     "count": 2,
     "list": [
       {
-        "title": "President Trump Speaks",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "13:00",
-        "hhmm_utc": 1300
-      },
-      {
-        "title": "FOMC Meeting Minutes",
+        "title": "FOMC Member Waller Speaks",
         "impact": 3,
         "flag": "🔥",
-        "time_utc_str": "14:00",
-        "hhmm_utc": 1400
+        "time_utc_str": "04:30",
+        "hhmm_utc": 430
+      },
+      {
+        "title": "Unemployment Claims",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -196.25
+    "diff": -243.0
   },
   "cot": {
     "ok": false,
@@ -63,14 +63,14 @@
       "cw2": 760.0,
       "pw1": 730.0,
       "pw2": 754.0,
-      "max_pain": 750.0
+      "max_pain": 751.0
     },
     "nas100_strikes": {
-      "cw1": 31196,
-      "cw2": 31444,
-      "pw1": 30203,
-      "pw2": 31196,
-      "max_pain": 31030
+      "cw1": 31006,
+      "cw2": 31253,
+      "pw1": 30019,
+      "pw2": 31006,
+      "max_pain": 30883
     },
     "needs_manual_override": false
   },
