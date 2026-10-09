@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-10-08T23:10:07.856343Z",
-  "prediction_date": "2026-10-08",
+  "generated_at": "2026-10-09T11:36:55.962978Z",
+  "prediction_date": "2026-10-09",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 0,
-    "py_bias_strength": 0,
-    "py_confidence": 20,
+    "py_bias_strength": 8,
+    "py_confidence": 26,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 50.25,
-      "bear_prob": 49.75,
+      "bull_prob": 54.12,
+      "bear_prob": 45.88,
       "bias_label": "NEUTRAL",
-      "type_proba_max": 40.58
+      "type_proba_max": 45.82
     }
   },
   "prices": {
-    "nas100": 31209.75,
-    "qqq": 753.4849853515625,
-    "vix": 15.539999961853027,
-    "ratio": 41.420533397142734
+    "nas100": 31212.75,
+    "qqq": 747.5700073242188,
+    "vix": 15.239999771118164,
+    "ratio": 41.75227696964457
   },
   "news": {
     "ok": true,
     "count": 2,
     "list": [
       {
-        "title": "FOMC Member Waller Speaks",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "04:30",
-        "hhmm_utc": 430
-      },
-      {
-        "title": "Unemployment Claims",
+        "title": "Prelim UoM Consumer Sentiment",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "Prelim UoM Inflation Expectations",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -192.5
+    "bias": "Up",
+    "diff": 244.5
   },
   "cot": {
     "ok": false,
@@ -59,18 +59,18 @@
     "ok": true,
     "expiration": "2026-10-09",
     "qqq_strikes": {
-      "cw1": 754.0,
-      "cw2": 760.0,
+      "cw1": 760.0,
+      "cw2": 754.0,
       "pw1": 730.0,
-      "pw2": 754.0,
-      "max_pain": 751.0
+      "pw2": 735.0,
+      "max_pain": 748.0
     },
     "nas100_strikes": {
-      "cw1": 31231,
-      "cw2": 31480,
-      "pw1": 30237,
-      "pw2": 31231,
-      "max_pain": 31107
+      "cw1": 31732,
+      "cw2": 31481,
+      "pw1": 30479,
+      "pw2": 30688,
+      "max_pain": 31231
     },
     "needs_manual_override": false
   },
