@@ -1,52 +1,37 @@
 {
-  "generated_at": "2026-10-09T22:29:29.988160Z",
+  "generated_at": "2026-10-10T10:54:41.725814Z",
   "prediction_date": "2026-10-09",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 22,
-    "py_confidence": 33,
+    "py_bias_strength": 24,
+    "py_confidence": 34,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 61.16,
-      "bear_prob": 38.84,
+      "bull_prob": 62.5,
+      "bear_prob": 37.5,
       "bias_label": "BULLISH",
-      "type_proba_max": 45.03
+      "type_proba_max": 45.79
     }
   },
   "prices": {
-    "nas100": 31058.0,
-    "qqq": 749.6400146484375,
-    "vix": 14.930000305175781,
-    "ratio": 41.43055252268708
+    "nas100": 31108.75,
+    "qqq": 751.239990234375,
+    "vix": 14.84000015258789,
+    "ratio": 41.40986955486031
   },
   "news": {
     "ok": true,
-    "count": 2,
-    "list": [
-      {
-        "title": "Prelim UoM Consumer Sentiment",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "Prelim UoM Inflation Expectations",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 88.5
+    "diff": 139.25
   },
   "cot": {
     "ok": false,
@@ -57,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-10-16",
+    "expiration": "2026-10-23",
     "qqq_strikes": {
-      "cw1": 760.0,
-      "cw2": 770.0,
-      "pw1": 700.0,
-      "pw2": 670.0,
-      "max_pain": 734.0
+      "cw1": 785.0,
+      "cw2": 760.0,
+      "pw1": 730.0,
+      "pw2": 711.0,
+      "max_pain": 0.0
     },
     "nas100_strikes": {
-      "cw1": 31487,
-      "cw2": 31902,
-      "pw1": 29001,
-      "pw2": 27758,
-      "max_pain": 30410
+      "cw1": 32507,
+      "cw2": 31472,
+      "pw1": 30229,
+      "pw2": 29442,
+      "max_pain": 0
     },
     "needs_manual_override": false
   },
