@@ -1,87 +1,37 @@
 {
-  "generated_at": "2026-10-15T21:10:57.768324Z",
-  "prediction_date": "2026-10-15",
+  "generated_at": "2026-10-16T09:26:30.981483Z",
+  "prediction_date": "2026-10-16",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 0,
-    "py_bias_strength": 2,
-    "py_confidence": 18,
+    "py_bias_strength": 9,
+    "py_confidence": 27,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 48.85,
-      "bear_prob": 51.15,
+      "bull_prob": 54.76,
+      "bear_prob": 45.24,
       "bias_label": "NEUTRAL",
-      "type_proba_max": 34.15
+      "type_proba_max": 45.52
     }
   },
   "prices": {
-    "nas100": 29755.0,
-    "qqq": 718.5999755859375,
-    "vix": 17.540000915527344,
-    "ratio": 41.406903716825404
+    "nas100": 30164.25,
+    "qqq": 728.0399780273438,
+    "vix": 16.0,
+    "ratio": 41.4321341002885
   },
   "news": {
     "ok": true,
-    "count": 7,
-    "list": [
-      {
-        "title": "Core PPI m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Core Retail Sales m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "PPI m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Retail Sales m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Philly Fed Manufacturing Index",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Unemployment Claims",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Fed Chairman Warsh Speaks",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "23:30",
-        "hhmm_utc": 2330
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -427.75
+    "bias": "Flat",
+    "diff": 20.5
   },
   "cot": {
     "ok": false,
@@ -94,17 +44,17 @@
     "ok": true,
     "expiration": "2026-10-16",
     "qqq_strikes": {
-      "cw1": 760.0,
-      "cw2": 770.0,
-      "pw1": 700.0,
-      "pw2": 670.0,
+      "cw1": 975.0,
+      "cw2": 1035.0,
+      "pw1": 300.0,
+      "pw2": 305.0,
       "max_pain": 0.0
     },
     "nas100_strikes": {
-      "cw1": 31469,
-      "cw2": 31883,
-      "pw1": 28985,
-      "pw2": 27743,
+      "cw1": 40396,
+      "cw2": 42882,
+      "pw1": 12430,
+      "pw2": 12637,
       "max_pain": 0
     },
     "needs_manual_override": false
