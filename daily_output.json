@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T09:26:30.981483Z",
+  "generated_at": "2026-10-16T11:30:11.669960Z",
   "prediction_date": "2026-10-16",
   "ml": {
     "py_day_quality": 0,
@@ -60,27 +60,9 @@
     "needs_manual_override": false
   },
   "judas": {
-    "generated_at": "2026-10-15T18:28:51.814787Z",
-    "ok": true,
-    "prix_open_ny": 29745.5,
-    "prix_extreme": 29622.5,
-    "prix_actuel": 29962.25,
-    "mouvement_initial": -123.0,
-    "amplitude": 123.0,
-    "direction": -1,
-    "recuperation": 339.8,
-    "recuperation_pct": 276.2,
-    "judas_confirme": true,
-    "biais_ml_predit": 0,
-    "atr_daily": 476.8,
-    "seuil_invalidation": 238.4,
-    "mouvement_total": 216.8,
-    "scenario_holds": true,
-    "tv_update1_active": true,
-    "tv_update1_judas_confirmed": true,
-    "tv_update1_judas_dir": -1,
-    "tv_update1_judas_amp": 123,
-    "tv_update1_scenario_holds": true
+    "generated_at": "2026-10-16T11:30:11.111255Z",
+    "ok": false,
+    "error": "Session NY pas encore ouverte ou pas assez de données"
   },
   "postlunch": {
     "generated_at": "2026-10-15T21:10:56.956010Z",
