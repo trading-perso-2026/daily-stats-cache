@@ -1,66 +1,37 @@
 {
-  "generated_at": "2026-10-23T21:14:59.680628Z",
+  "generated_at": "2026-10-24T09:14:57.285782Z",
   "prediction_date": "2026-10-23",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 0,
-    "py_bias_strength": 6,
-    "py_confidence": 21,
+    "py_bias": 1,
+    "py_bias_strength": 15,
+    "py_confidence": 27,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 46.57,
-      "bear_prob": 53.43,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 37.13
+      "bull_prob": 57.66,
+      "bear_prob": 42.34,
+      "bias_label": "BULLISH",
+      "type_proba_max": 39.92
     }
   },
   "prices": {
-    "nas100": 29042.25,
-    "qqq": 704.2999877929688,
-    "vix": 20.079999923706055,
-    "ratio": 41.23562473855539
+    "nas100": 29117.75,
+    "qqq": 704.3900146484375,
+    "vix": 19.450000762939453,
+    "ratio": 41.33753942342969
   },
   "news": {
     "ok": true,
-    "count": 4,
-    "list": [
-      {
-        "title": "Flash Manufacturing PMI",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "09:45",
-        "hhmm_utc": 945
-      },
-      {
-        "title": "Flash Services PMI",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "09:45",
-        "hhmm_utc": 945
-      },
-      {
-        "title": "Revised UoM Consumer Sentiment",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "Revised UoM Inflation Expectations",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -99.75
+    "bias": "Flat",
+    "diff": -24.25
   },
   "cot": {
     "ok": false,
@@ -71,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-10-23",
+    "expiration": "2026-11-06",
     "qqq_strikes": {
-      "cw1": 735.0,
-      "cw2": 720.0,
-      "pw1": 711.0,
-      "pw2": 630.0,
-      "max_pain": 714.0
+      "cw1": 769.0,
+      "cw2": 760.0,
+      "pw1": 713.0,
+      "pw2": 710.0,
+      "max_pain": 725.0
     },
     "nas100_strikes": {
-      "cw1": 30308,
-      "cw2": 29690,
-      "pw1": 29319,
-      "pw2": 25978,
-      "max_pain": 29442
+      "cw1": 31789,
+      "cw2": 31417,
+      "pw1": 29474,
+      "pw2": 29350,
+      "max_pain": 29970
     },
     "needs_manual_override": false
   },
