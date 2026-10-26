@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T21:44:00.260880Z",
+  "generated_at": "2026-10-26T21:51:26.752236Z",
   "prediction_date": "2026-10-26",
   "ml": {
     "py_day_quality": 0,
@@ -83,7 +83,7 @@
     "tv_update1_scenario_holds": true
   },
   "postlunch": {
-    "generated_at": "2026-10-26T21:43:59.445541Z",
+    "generated_at": "2026-10-26T21:51:25.625641Z",
     "ok": true,
     "prix_open_ny": 29228.25,
     "prix_lunch": 29463.0,
