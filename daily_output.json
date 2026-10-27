@@ -1,37 +1,45 @@
 {
-  "generated_at": "2026-10-26T22:31:19.548601Z",
-  "prediction_date": "2026-10-26",
+  "generated_at": "2026-10-27T10:09:41.977280Z",
+  "prediction_date": "2026-10-27",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 0,
-    "py_bias_strength": 3,
-    "py_confidence": 23,
+    "py_bias": -1,
+    "py_bias_strength": 36,
+    "py_confidence": 39,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 51.63,
-      "bear_prob": 48.37,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 43.03
+      "bull_prob": 31.61,
+      "bear_prob": 68.39,
+      "bias_label": "BEARISH",
+      "type_proba_max": 43.84
     }
   },
   "prices": {
-    "nas100": 29523.0,
-    "qqq": 714.7100219726562,
-    "vix": 17.920000076293945,
-    "ratio": 41.30766197809034
+    "nas100": 29473.75,
+    "qqq": 712.1199951171875,
+    "vix": 18.229999542236328,
+    "ratio": 41.38874094547754
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 1,
+    "list": [
+      {
+        "title": "CB Consumer Confidence",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      }
+    ]
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 405.25
+    "diff": 35.75
   },
   "cot": {
     "ok": false,
@@ -44,18 +52,18 @@
     "ok": true,
     "expiration": "2026-10-30",
     "qqq_strikes": {
-      "cw1": 770.0,
-      "cw2": 740.0,
-      "pw1": 690.0,
-      "pw2": 700.0,
-      "max_pain": 725.0
+      "cw1": 602.0,
+      "cw2": 475.0,
+      "pw1": 470.0,
+      "pw2": 475.0,
+      "max_pain": 470.0
     },
     "nas100_strikes": {
-      "cw1": 31807,
-      "cw2": 30568,
-      "pw1": 28502,
-      "pw2": 28915,
-      "max_pain": 29948
+      "cw1": 24916,
+      "cw2": 19660,
+      "pw1": 19453,
+      "pw2": 19660,
+      "max_pain": 19453
     },
     "needs_manual_override": false
   },
