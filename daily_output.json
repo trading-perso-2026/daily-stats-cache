@@ -1,45 +1,59 @@
 {
-  "generated_at": "2026-10-27T22:00:28.380434Z",
-  "prediction_date": "2026-10-27",
+  "generated_at": "2026-10-28T10:56:00.000667Z",
+  "prediction_date": "2026-10-28",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": -1,
-    "py_bias_strength": 25,
-    "py_confidence": 37,
+    "py_bias": 0,
+    "py_bias_strength": 0,
+    "py_confidence": 26,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 37.41,
-      "bear_prob": 62.59,
-      "bias_label": "BEARISH",
-      "type_proba_max": 50.04
+      "bull_prob": 50.5,
+      "bear_prob": 49.5,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 53.79
     }
   },
   "prices": {
-    "nas100": 29652.75,
-    "qqq": 717.6099853515625,
-    "vix": 17.68000030517578,
-    "ratio": 41.321540398400245
+    "nas100": 29975.5,
+    "qqq": 721.239990234375,
+    "vix": 17.459999084472656,
+    "ratio": 41.56106206792433
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 3,
     "list": [
       {
-        "title": "CB Consumer Confidence",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
+        "title": "Federal Funds Rate",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "14:00",
+        "hhmm_utc": 1400
+      },
+      {
+        "title": "FOMC Statement",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "14:00",
+        "hhmm_utc": 1400
+      },
+      {
+        "title": "FOMC Press Conference",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "14:30",
+        "hhmm_utc": 1430
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 215.5
+    "diff": 162.75
   },
   "cot": {
     "ok": false,
@@ -52,18 +66,18 @@
     "ok": true,
     "expiration": "2026-10-30",
     "qqq_strikes": {
-      "cw1": 770.0,
-      "cw2": 740.0,
-      "pw1": 690.0,
-      "pw2": 700.0,
-      "max_pain": 722.0
+      "cw1": 740.0,
+      "cw2": 725.0,
+      "pw1": 685.0,
+      "pw2": 705.0,
+      "max_pain": 720.0
     },
     "nas100_strikes": {
-      "cw1": 31818,
-      "cw2": 30578,
-      "pw1": 28512,
-      "pw2": 28925,
-      "max_pain": 29834
+      "cw1": 30755,
+      "cw2": 30132,
+      "pw1": 28469,
+      "pw2": 29301,
+      "max_pain": 29924
     },
     "needs_manual_override": false
   },
