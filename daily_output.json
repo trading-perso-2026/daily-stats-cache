@@ -1,45 +1,37 @@
 {
-  "generated_at": "2026-10-30T22:07:51.856306Z",
+  "generated_at": "2026-10-31T10:41:27.106198Z",
   "prediction_date": "2026-10-30",
   "ml": {
     "py_day_quality": 0,
-    "py_day_type": 4,
+    "py_day_type": 2,
     "py_bias": 1,
-    "py_bias_strength": 20,
+    "py_bias_strength": 19,
     "py_confidence": 27,
-    "py_first_move": 0,
-    "py_first_amp_min": 30,
-    "py_first_amp_max": 60,
+    "py_first_move": -1,
+    "py_first_amp_min": 80,
+    "py_first_amp_max": 130,
     "meta": {
-      "bull_prob": 60.39,
-      "bear_prob": 39.61,
+      "bull_prob": 59.88,
+      "bear_prob": 40.12,
       "bias_label": "BULLISH",
-      "type_proba_max": 34.89
+      "type_proba_max": 35.59
     }
   },
   "prices": {
-    "nas100": 28728.5,
-    "qqq": 695.0999755859375,
-    "vix": 19.139999389648438,
-    "ratio": 41.33002590855105
+    "nas100": 28534.0,
+    "qqq": 690.5599975585938,
+    "vix": 19.440000534057617,
+    "ratio": 41.3200881905687
   },
   "news": {
     "ok": true,
-    "count": 1,
-    "list": [
-      {
-        "title": "Employment Cost Index q/q",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -832.75
+    "diff": -1028.0
   },
   "cot": {
     "ok": false,
@@ -50,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-11-06",
+    "expiration": "2026-11-13",
     "qqq_strikes": {
-      "cw1": 769.0,
-      "cw2": 760.0,
-      "pw1": 713.0,
-      "pw2": 675.0,
-      "max_pain": 720.0
+      "cw1": 800.0,
+      "cw2": 755.0,
+      "pw1": 725.0,
+      "pw2": 690.0,
+      "max_pain": 725.0
     },
     "nas100_strikes": {
-      "cw1": 31783,
-      "cw2": 31411,
-      "pw1": 29468,
-      "pw2": 27898,
-      "max_pain": 29758
+      "cw1": 33056,
+      "cw2": 31197,
+      "pw1": 29957,
+      "pw2": 28511,
+      "max_pain": 29957
     },
     "needs_manual_override": false
   },
