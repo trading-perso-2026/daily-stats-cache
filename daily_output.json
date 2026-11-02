@@ -1,37 +1,45 @@
 {
-  "generated_at": "2026-11-01T15:25:14.081964Z",
-  "prediction_date": "2026-10-30",
+  "generated_at": "2026-11-02T13:00:07.323084Z",
+  "prediction_date": "2026-11-02",
   "ml": {
     "py_day_quality": 0,
-    "py_day_type": 2,
+    "py_day_type": 4,
     "py_bias": -1,
-    "py_bias_strength": 25,
-    "py_confidence": 29,
-    "py_first_move": 1,
-    "py_first_amp_min": 80,
-    "py_first_amp_max": 130,
+    "py_bias_strength": 40,
+    "py_confidence": 41,
+    "py_first_move": 0,
+    "py_first_amp_min": 30,
+    "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 37.49,
-      "bear_prob": 62.51,
+      "bull_prob": 29.85,
+      "bear_prob": 70.15,
       "bias_label": "BEARISH",
-      "type_proba_max": 34.71
+      "type_proba_max": 42.84
     }
   },
   "prices": {
-    "nas100": 28534.0,
+    "nas100": 28721.0,
     "qqq": 690.5599975585938,
-    "vix": 19.440000534057617,
-    "ratio": 41.3200881905687
+    "vix": 19.34000015258789,
+    "ratio": 41.59088290885693
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 1,
+    "list": [
+      {
+        "title": "ISM Manufacturing PMI",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      }
+    ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -1028.0
+    "bias": "Up",
+    "diff": 188.0
   },
   "cot": {
     "ok": false,
@@ -42,20 +50,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-11-13",
+    "expiration": "2026-11-06",
     "qqq_strikes": {
-      "cw1": 800.0,
-      "cw2": 755.0,
-      "pw1": 725.0,
-      "pw2": 690.0,
-      "max_pain": 725.0
+      "cw1": 769.0,
+      "cw2": 760.0,
+      "pw1": 713.0,
+      "pw2": 675.0,
+      "max_pain": 714.0
     },
     "nas100_strikes": {
-      "cw1": 33056,
-      "cw2": 31197,
-      "pw1": 29957,
-      "pw2": 28511,
-      "max_pain": 29957
+      "cw1": 31983,
+      "cw2": 31609,
+      "pw1": 29654,
+      "pw2": 28074,
+      "max_pain": 29696
     },
     "needs_manual_override": false
   },
