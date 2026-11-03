@@ -1,45 +1,52 @@
 {
-  "generated_at": "2026-11-03T00:49:00.872408Z",
-  "prediction_date": "2026-11-02",
+  "generated_at": "2026-11-03T12:33:55.246866Z",
+  "prediction_date": "2026-11-03",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 1,
-    "py_bias_strength": 25,
-    "py_confidence": 31,
+    "py_bias": 0,
+    "py_bias_strength": 7,
+    "py_confidence": 20,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 62.72,
-      "bear_prob": 37.28,
-      "bias_label": "BULLISH",
-      "type_proba_max": 37.24
+      "bull_prob": 53.84,
+      "bear_prob": 46.16,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 33.85
     }
   },
   "prices": {
-    "nas100": 28512.75,
-    "qqq": 689.5,
-    "vix": 19.700000762939453,
-    "ratio": 41.35279187817259
+    "nas100": 28218.0,
+    "qqq": 681.1300048828125,
+    "vix": 21.639999389648438,
+    "ratio": 41.42821458123089
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 2,
     "list": [
       {
-        "title": "ISM Manufacturing PMI",
+        "title": "JOLTS Job Openings",
         "impact": 1,
         "flag": "🟠",
         "time_utc_str": "10:00",
         "hhmm_utc": 1000
+      },
+      {
+        "title": "Congressional Elections",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "10:16",
+        "hhmm_utc": 1016
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Flat",
-    "diff": -21.75
+    "bias": "Up",
+    "diff": 90.5
   },
   "cot": {
     "ok": false,
@@ -53,17 +60,17 @@
     "expiration": "2026-11-06",
     "qqq_strikes": {
       "cw1": 769.0,
-      "cw2": 760.0,
+      "cw2": 735.0,
       "pw1": 713.0,
       "pw2": 675.0,
-      "max_pain": 714.0
+      "max_pain": 713.0
     },
     "nas100_strikes": {
-      "cw1": 31800,
-      "cw2": 31428,
-      "pw1": 29485,
-      "pw2": 27913,
-      "max_pain": 29526
+      "cw1": 31858,
+      "cw2": 30450,
+      "pw1": 29538,
+      "pw2": 27964,
+      "max_pain": 29538
     },
     "needs_manual_override": false
   },
