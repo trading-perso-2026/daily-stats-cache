@@ -1,52 +1,45 @@
 {
-  "generated_at": "2026-11-03T23:05:14.528210Z",
-  "prediction_date": "2026-11-03",
+  "generated_at": "2026-11-04T12:43:39.461370Z",
+  "prediction_date": "2026-11-04",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 0,
-    "py_bias_strength": 6,
-    "py_confidence": 23,
+    "py_bias": 1,
+    "py_bias_strength": 28,
+    "py_confidence": 31,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 46.66,
-      "bear_prob": 53.34,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 41.13
+      "bull_prob": 64.33,
+      "bear_prob": 35.67,
+      "bias_label": "BULLISH",
+      "type_proba_max": 35.27
     }
   },
   "prices": {
-    "nas100": 28379.5,
-    "qqq": 686.3400268554688,
-    "vix": 20.360000610351562,
-    "ratio": 41.34903821655768
+    "nas100": 28457.0,
+    "qqq": 685.3400268554688,
+    "vix": 18.309999465942383,
+    "ratio": 41.522454380154414
   },
   "news": {
     "ok": true,
-    "count": 2,
+    "count": 1,
     "list": [
       {
-        "title": "JOLTS Job Openings",
+        "title": "ISM Services PMI",
         "impact": 1,
         "flag": "🟠",
         "time_utc_str": "10:00",
         "hhmm_utc": 1000
-      },
-      {
-        "title": "Congressional Elections",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "10:16",
-        "hhmm_utc": 1016
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 248.25
+    "diff": 151.25
   },
   "cot": {
     "ok": false,
@@ -66,11 +59,11 @@
       "max_pain": 713.0
     },
     "nas100_strikes": {
-      "cw1": 31797,
-      "cw2": 30392,
-      "pw1": 29482,
-      "pw2": 27911,
-      "max_pain": 29482
+      "cw1": 31931,
+      "cw2": 30519,
+      "pw1": 29606,
+      "pw2": 28028,
+      "max_pain": 29606
     },
     "needs_manual_override": false
   },
