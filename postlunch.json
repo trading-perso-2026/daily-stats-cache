@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-05T22:51:24.516374Z",
+  "generated_at": "2026-11-05T23:29:45.387948Z",
   "ok": true,
   "prix_open_ny": 28203.0,
   "prix_lunch": 27151.5,
-  "prix_current": 26604.0,
+  "prix_current": 26386.0,
   "mouvement_am": -1051.5,
-  "mouvement_pm": -547.5,
-  "amplitude_pm": 547.5,
+  "mouvement_pm": -765.5,
+  "amplitude_pm": 765.5,
   "sens_am": -1,
   "sens_pm": -1,
   "type_pm": "continuation",
-  "explication": "PM dans le MÊME sens que AM, amplitude 548 > 30 → CONTINUATION",
-  "target_pm": 26554,
+  "explication": "PM dans le MÊME sens que AM, amplitude 766 > 30 → CONTINUATION",
+  "target_pm": 26336,
   "doit_activer": true,
   "tv_update2_active": true,
   "tv_update2_type": "continuation",
-  "tv_update2_target_pm": 26554
+  "tv_update2_target_pm": 26336
 }
