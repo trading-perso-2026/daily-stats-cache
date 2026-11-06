@@ -1,45 +1,73 @@
 {
-  "generated_at": "2026-11-05T23:29:46.958088Z",
-  "prediction_date": "2026-11-05",
+  "generated_at": "2026-11-06T12:39:54.399187Z",
+  "prediction_date": "2026-11-06",
   "ml": {
     "py_day_quality": 0,
-    "py_day_type": 2,
-    "py_bias": 1,
-    "py_bias_strength": 18,
-    "py_confidence": 25,
-    "py_first_move": -1,
-    "py_first_amp_min": 80,
-    "py_first_amp_max": 130,
+    "py_day_type": 4,
+    "py_bias": 0,
+    "py_bias_strength": 2,
+    "py_confidence": 18,
+    "py_first_move": 0,
+    "py_first_amp_min": 30,
+    "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 59.11,
-      "bear_prob": 40.89,
-      "bias_label": "BULLISH",
-      "type_proba_max": 32.45
+      "bull_prob": 48.77,
+      "bear_prob": 51.23,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 34.24
     }
   },
   "prices": {
-    "nas100": 27286.75,
-    "qqq": 660.22998046875,
-    "vix": 22.600000381469727,
-    "ratio": 41.32915924330936
+    "nas100": 27186.25,
+    "qqq": 648.0599975585938,
+    "vix": 26.579999923706055,
+    "ratio": 41.95020538594805
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 5,
     "list": [
       {
-        "title": "Unemployment Claims",
-        "impact": 1,
-        "flag": "🟠",
+        "title": "Average Hourly Earnings m/m",
+        "impact": 2,
+        "flag": "🔴",
         "time_utc_str": "08:30",
         "hhmm_utc": 830
+      },
+      {
+        "title": "Non-Farm Employment Change",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Unemployment Rate",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Prelim UoM Consumer Sentiment",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "Prelim UoM Inflation Expectations",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -1282.5
+    "bias": "Up",
+    "diff": 434.25
   },
   "cot": {
     "ok": false,
@@ -54,16 +82,16 @@
     "qqq_strikes": {
       "cw1": 769.0,
       "cw2": 705.0,
-      "pw1": 713.0,
-      "pw2": 675.0,
-      "max_pain": 710.0
+      "pw1": 675.0,
+      "pw2": 691.0,
+      "max_pain": 686.0
     },
     "nas100_strikes": {
-      "cw1": 31782,
-      "cw2": 29137,
-      "pw1": 29468,
-      "pw2": 27897,
-      "max_pain": 29344
+      "cw1": 32260,
+      "cw2": 29575,
+      "pw1": 28316,
+      "pw2": 28988,
+      "max_pain": 28778
     },
     "needs_manual_override": false
   },
