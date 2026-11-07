@@ -1,73 +1,37 @@
 {
-  "generated_at": "2026-11-06T22:55:33.732978Z",
+  "generated_at": "2026-11-07T11:26:48.211080Z",
   "prediction_date": "2026-11-06",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": -1,
-    "py_bias_strength": 19,
-    "py_confidence": 26,
+    "py_bias_strength": 29,
+    "py_confidence": 31,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 40.0,
-      "bear_prob": 60.0,
+      "bull_prob": 35.03,
+      "bear_prob": 64.97,
       "bias_label": "BEARISH",
-      "type_proba_max": 34.53
+      "type_proba_max": 34.11
     }
   },
   "prices": {
-    "nas100": 27226.25,
-    "qqq": 658.5700073242188,
-    "vix": 24.110000610351562,
-    "ratio": 41.34146665837505
+    "nas100": 27085.25,
+    "qqq": 656.219970703125,
+    "vix": 25.6299991607666,
+    "ratio": 41.274650588549996
   },
   "news": {
     "ok": true,
-    "count": 5,
-    "list": [
-      {
-        "title": "Average Hourly Earnings m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Non-Farm Employment Change",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Unemployment Rate",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Prelim UoM Consumer Sentiment",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      },
-      {
-        "title": "Prelim UoM Inflation Expectations",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 474.25
+    "diff": 333.25
   },
   "cot": {
     "ok": false,
@@ -78,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-11-13",
+    "expiration": "2026-11-20",
     "qqq_strikes": {
-      "cw1": 700.0,
-      "cw2": 710.0,
-      "pw1": 650.0,
-      "pw2": 685.0,
-      "max_pain": 690.0
+      "cw1": 760.0,
+      "cw2": 775.0,
+      "pw1": 680.0,
+      "pw2": 600.0,
+      "max_pain": 705.0
     },
     "nas100_strikes": {
-      "cw1": 28939,
-      "cw2": 29352,
-      "pw1": 26872,
-      "pw2": 28319,
-      "max_pain": 28526
+      "cw1": 31369,
+      "cw2": 31988,
+      "pw1": 28067,
+      "pw2": 24765,
+      "max_pain": 29099
     },
     "needs_manual_override": false
   },
