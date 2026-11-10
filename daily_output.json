@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-10T13:11:49.597645Z",
+  "generated_at": "2026-11-10T15:28:11.152436Z",
   "prediction_date": "2026-11-10",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 0,
-    "py_bias_strength": 9,
-    "py_confidence": 25,
+    "py_bias": 1,
+    "py_bias_strength": 24,
+    "py_confidence": 33,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 45.28,
-      "bear_prob": 54.72,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 41.6
+      "bull_prob": 62.38,
+      "bear_prob": 37.62,
+      "bias_label": "BULLISH",
+      "type_proba_max": 42.75
     }
   },
   "prices": {
-    "nas100": 27905.5,
-    "qqq": 678.760009765625,
-    "vix": 20.139999389648438,
-    "ratio": 41.11246920636314
+    "nas100": 27968.75,
+    "qqq": 676.5800170898438,
+    "vix": 19.979999542236328,
+    "ratio": 41.33842161094451
   },
   "news": {
     "ok": true,
@@ -53,7 +53,7 @@
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -109.0
+    "diff": -45.75
   },
   "cot": {
     "ok": false,
@@ -63,17 +63,23 @@
     "error": "Toutes les URLs CFTC ont échoué (probablement weekend ou site down)"
   },
   "options": {
-    "ok": false,
-    "expiration": null,
+    "ok": true,
+    "expiration": "2026-11-13",
     "qqq_strikes": {
-      "cw1": null,
-      "cw2": null,
-      "pw1": null,
-      "pw2": null,
-      "max_pain": null
+      "cw1": 700.0,
+      "cw2": 710.0,
+      "pw1": 650.0,
+      "pw2": 570.0,
+      "max_pain": 685.0
     },
-    "nas100_strikes": {},
-    "needs_manual_override": true
+    "nas100_strikes": {
+      "cw1": 28937,
+      "cw2": 29350,
+      "pw1": 26870,
+      "pw2": 23563,
+      "max_pain": 28317
+    },
+    "needs_manual_override": false
   },
   "judas": {
     "generated_at": "2026-11-09T23:30:03.802096Z",
