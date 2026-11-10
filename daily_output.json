@@ -1,37 +1,59 @@
 {
-  "generated_at": "2026-11-10T01:23:00.184877Z",
-  "prediction_date": "2026-11-09",
+  "generated_at": "2026-11-10T13:11:49.597645Z",
+  "prediction_date": "2026-11-10",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 1,
-    "py_bias_strength": 31,
-    "py_confidence": 37,
+    "py_bias": 0,
+    "py_bias_strength": 9,
+    "py_confidence": 25,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 65.69,
-      "bear_prob": 34.31,
-      "bias_label": "BULLISH",
-      "type_proba_max": 43.29
+      "bull_prob": 45.28,
+      "bear_prob": 54.72,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 41.6
     }
   },
   "prices": {
-    "nas100": 27976.75,
-    "qqq": 677.8250122070312,
-    "vix": 20.100000381469727,
-    "ratio": 41.274295719637635
+    "nas100": 27905.5,
+    "qqq": 678.760009765625,
+    "vix": 20.139999389648438,
+    "ratio": 41.11246920636314
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 3,
+    "list": [
+      {
+        "title": "FOMC Member Waller Speaks",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "04:00",
+        "hhmm_utc": 400
+      },
+      {
+        "title": "Core CPI m/m",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "CPI m/m",
+        "impact": 3,
+        "flag": "🔥",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      }
+    ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 889.75
+    "bias": "Down",
+    "diff": -109.0
   },
   "cot": {
     "ok": false,
@@ -41,23 +63,17 @@
     "error": "Toutes les URLs CFTC ont échoué (probablement weekend ou site down)"
   },
   "options": {
-    "ok": true,
-    "expiration": "2026-11-13",
+    "ok": false,
+    "expiration": null,
     "qqq_strikes": {
-      "cw1": 700.0,
-      "cw2": 710.0,
-      "pw1": 650.0,
-      "pw2": 685.0,
-      "max_pain": 685.0
+      "cw1": null,
+      "cw2": null,
+      "pw1": null,
+      "pw2": null,
+      "max_pain": null
     },
-    "nas100_strikes": {
-      "cw1": 28892,
-      "cw2": 29305,
-      "pw1": 26828,
-      "pw2": 28273,
-      "max_pain": 28273
-    },
-    "needs_manual_override": false
+    "nas100_strikes": {},
+    "needs_manual_override": true
   },
   "judas": {
     "generated_at": "2026-11-09T23:30:03.802096Z",
