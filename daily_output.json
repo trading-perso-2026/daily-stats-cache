@@ -1,59 +1,37 @@
 {
-  "generated_at": "2026-11-10T23:03:54.700270Z",
-  "prediction_date": "2026-11-10",
+  "generated_at": "2026-11-11T12:20:35.089642Z",
+  "prediction_date": "2026-11-11",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 0,
-    "py_bias_strength": 6,
-    "py_confidence": 22,
+    "py_bias": 1,
+    "py_bias_strength": 41,
+    "py_confidence": 48,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 53.4,
-      "bear_prob": 46.6,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 39.55
+      "bull_prob": 70.67,
+      "bear_prob": 29.33,
+      "bias_label": "BULLISH",
+      "type_proba_max": 55.35
     }
   },
   "prices": {
-    "nas100": 27786.5,
-    "qqq": 673.6099853515625,
-    "vix": 20.709999084472656,
-    "ratio": 41.25013079415383
+    "nas100": 28373.0,
+    "qqq": 674.8099975585938,
+    "vix": 18.670000076293945,
+    "ratio": 42.045909371009834
   },
   "news": {
     "ok": true,
-    "count": 3,
-    "list": [
-      {
-        "title": "FOMC Member Waller Speaks",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "04:00",
-        "hhmm_utc": 400
-      },
-      {
-        "title": "Core CPI m/m",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "CPI m/m",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -232.25
+    "bias": "Up",
+    "diff": 537.75
   },
   "cot": {
     "ok": false,
@@ -66,18 +44,18 @@
     "ok": true,
     "expiration": "2026-11-13",
     "qqq_strikes": {
-      "cw1": 700.0,
-      "cw2": 710.0,
-      "pw1": 650.0,
-      "pw2": 570.0,
-      "max_pain": 685.0
+      "cw1": 710.0,
+      "cw2": 725.0,
+      "pw1": 570.0,
+      "pw2": 685.0,
+      "max_pain": 705.0
     },
     "nas100_strikes": {
-      "cw1": 28875,
-      "cw2": 29288,
-      "pw1": 26813,
-      "pw2": 23513,
-      "max_pain": 28256
+      "cw1": 29853,
+      "cw2": 30483,
+      "pw1": 23966,
+      "pw2": 28801,
+      "max_pain": 29642
     },
     "needs_manual_override": false
   },
