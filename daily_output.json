@@ -1,52 +1,37 @@
 {
-  "generated_at": "2026-11-13T23:25:52.895053Z",
+  "generated_at": "2026-11-14T11:53:44.068062Z",
   "prediction_date": "2026-11-13",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 0,
-    "py_bias_strength": 0,
-    "py_confidence": 23,
+    "py_bias": 1,
+    "py_bias_strength": 21,
+    "py_confidence": 34,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 50.45,
-      "bear_prob": 49.55,
-      "bias_label": "NEUTRAL",
-      "type_proba_max": 46.53
+      "bull_prob": 60.56,
+      "bear_prob": 39.44,
+      "bias_label": "BULLISH",
+      "type_proba_max": 48.9
     }
   },
   "prices": {
-    "nas100": 27840.25,
-    "qqq": 674.6094970703125,
-    "vix": 20.420000076293945,
-    "ratio": 41.268689695156034
+    "nas100": 28034.75,
+    "qqq": 679.9000244140625,
+    "vix": 19.280000686645508,
+    "ratio": 41.23363581897255
   },
   "news": {
     "ok": true,
-    "count": 2,
-    "list": [
-      {
-        "title": "Core PPI m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "PPI m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -544.25
+    "diff": -349.75
   },
   "cot": {
     "ok": false,
@@ -57,20 +42,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-11-20",
+    "expiration": "2026-11-27",
     "qqq_strikes": {
-      "cw1": 760.0,
-      "cw2": 775.0,
-      "pw1": 680.0,
-      "pw2": 600.0,
-      "max_pain": 698.0
+      "cw1": 700.0,
+      "cw2": 665.0,
+      "pw1": 640.0,
+      "pw2": 690.0,
+      "max_pain": 0.0
     },
     "nas100_strikes": {
-      "cw1": 31364,
-      "cw2": 31983,
-      "pw1": 28063,
-      "pw2": 24761,
-      "max_pain": 28806
+      "cw1": 28864,
+      "cw2": 27420,
+      "pw1": 26390,
+      "pw2": 28451,
+      "max_pain": 0
     },
     "needs_manual_override": false
   },
