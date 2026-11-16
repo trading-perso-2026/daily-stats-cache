@@ -1,37 +1,45 @@
 {
-  "generated_at": "2026-11-15T15:49:28.412385Z",
-  "prediction_date": "2026-11-13",
+  "generated_at": "2026-11-16T13:17:38.627394Z",
+  "prediction_date": "2026-11-16",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": -1,
-    "py_bias_strength": 27,
-    "py_confidence": 39,
+    "py_bias": 0,
+    "py_bias_strength": 6,
+    "py_confidence": 23,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 36.02,
-      "bear_prob": 63.98,
-      "bias_label": "BEARISH",
-      "type_proba_max": 51.67
+      "bull_prob": 46.6,
+      "bear_prob": 53.4,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 40.69
     }
   },
   "prices": {
-    "nas100": 28034.75,
+    "nas100": 27697.0,
     "qqq": 679.9000244140625,
-    "vix": 19.280000686645508,
-    "ratio": 41.23363581897255
+    "vix": 20.59000015258789,
+    "ratio": 40.73687160677669
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 1,
+    "list": [
+      {
+        "title": "Fed Chairman Warsh Speaks",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "12:00",
+        "hhmm_utc": 1200
+      }
+    ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -349.75
+    "diff": -337.75
   },
   "cot": {
     "ok": false,
@@ -42,20 +50,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-11-27",
+    "expiration": "2026-11-20",
     "qqq_strikes": {
-      "cw1": 700.0,
-      "cw2": 665.0,
-      "pw1": 640.0,
-      "pw2": 690.0,
-      "max_pain": 0.0
+      "cw1": 720.0,
+      "cw2": 760.0,
+      "pw1": 680.0,
+      "pw2": 600.0,
+      "max_pain": 696.0
     },
     "nas100_strikes": {
-      "cw1": 28864,
-      "cw2": 27420,
-      "pw1": 26390,
-      "pw2": 28451,
-      "max_pain": 0
+      "cw1": 29331,
+      "cw2": 30960,
+      "pw1": 27701,
+      "pw2": 24442,
+      "max_pain": 28353
     },
     "needs_manual_override": false
   },
