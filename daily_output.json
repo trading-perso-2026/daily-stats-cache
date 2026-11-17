@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T01:03:53.706613Z",
+  "generated_at": "2026-11-17T01:47:04.592921Z",
   "prediction_date": "2026-11-16",
   "ml": {
     "py_day_quality": 0,
@@ -91,7 +91,7 @@
     "tv_update1_scenario_holds": true
   },
   "postlunch": {
-    "generated_at": "2026-11-17T01:03:53.128781Z",
+    "generated_at": "2026-11-17T01:47:03.375614Z",
     "ok": false,
     "error": "Pas de données après NY open"
   }
