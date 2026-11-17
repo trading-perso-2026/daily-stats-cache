@@ -1,45 +1,52 @@
 {
-  "generated_at": "2026-11-17T01:47:04.592921Z",
-  "prediction_date": "2026-11-16",
+  "generated_at": "2026-11-17T14:02:28.394333Z",
+  "prediction_date": "2026-11-17",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": -1,
-    "py_bias_strength": 16,
-    "py_confidence": 26,
+    "py_bias_strength": 25,
+    "py_confidence": 32,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 41.67,
-      "bear_prob": 58.33,
+      "bull_prob": 37.13,
+      "bear_prob": 62.87,
       "bias_label": "BEARISH",
-      "type_proba_max": 36.32
+      "type_proba_max": 40.57
     }
   },
   "prices": {
-    "nas100": 27269.75,
-    "qqq": 664.0468139648438,
-    "vix": 23.56999969482422,
-    "ratio": 41.06600532751555
+    "nas100": 27348.0,
+    "qqq": 661.8599853515625,
+    "vix": 23.110000610351562,
+    "ratio": 41.31991751317836
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 2,
     "list": [
       {
-        "title": "Fed Chairman Warsh Speaks",
+        "title": "Core Retail Sales m/m",
         "impact": 2,
         "flag": "🔴",
-        "time_utc_str": "12:00",
-        "hhmm_utc": 1200
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Retail Sales m/m",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -765.0
+    "bias": "Up",
+    "diff": 63.75
   },
   "cot": {
     "ok": false,
@@ -56,14 +63,14 @@
       "cw2": 760.0,
       "pw1": 680.0,
       "pw2": 600.0,
-      "max_pain": 696.0
+      "max_pain": 690.0
     },
     "nas100_strikes": {
-      "cw1": 29568,
-      "cw2": 31210,
-      "pw1": 27925,
-      "pw2": 24640,
-      "max_pain": 28582
+      "cw1": 29750,
+      "cw2": 31403,
+      "pw1": 28098,
+      "pw2": 24792,
+      "max_pain": 28511
     },
     "needs_manual_override": false
   },
