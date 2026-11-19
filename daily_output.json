@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T23:34:37.165938Z",
+  "generated_at": "2026-11-19T00:07:07.258352Z",
   "prediction_date": "2026-11-18",
   "ml": {
     "py_day_quality": 0,
@@ -91,22 +91,8 @@
     "tv_update1_scenario_holds": true
   },
   "postlunch": {
-    "generated_at": "2026-11-18T23:34:36.596183Z",
-    "ok": true,
-    "prix_open_ny": 27251.75,
-    "prix_lunch": 27050.5,
-    "prix_current": 27385.75,
-    "mouvement_am": -201.2,
-    "mouvement_pm": 335.2,
-    "amplitude_pm": 335.2,
-    "sens_am": -1,
-    "sens_pm": 1,
-    "type_pm": "reversal",
-    "explication": "PM dans le sens OPPOSÉ à AM, amplitude 335 > 50 → REVERSAL",
-    "target_pm": 27446,
-    "doit_activer": true,
-    "tv_update2_active": true,
-    "tv_update2_type": "reversal",
-    "tv_update2_target_pm": 27446
+    "generated_at": "2026-11-19T00:07:06.796800Z",
+    "ok": false,
+    "error": "Pas de données après NY open"
   }
 }
