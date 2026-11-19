@@ -1,45 +1,52 @@
 {
-  "generated_at": "2026-11-19T00:07:07.258352Z",
-  "prediction_date": "2026-11-18",
+  "generated_at": "2026-11-19T14:03:50.795228Z",
+  "prediction_date": "2026-11-19",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": -1,
-    "py_bias_strength": 32,
-    "py_confidence": 34,
+    "py_bias": 1,
+    "py_bias_strength": 24,
+    "py_confidence": 39,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 33.87,
-      "bear_prob": 66.13,
-      "bias_label": "BEARISH",
-      "type_proba_max": 37.33
+      "bull_prob": 62.26,
+      "bear_prob": 37.74,
+      "bias_label": "BULLISH",
+      "type_proba_max": 54.47
     }
   },
   "prices": {
-    "nas100": 27136.0,
-    "qqq": 662.02001953125,
-    "vix": 24.770000457763672,
-    "ratio": 40.989696987130266
+    "nas100": 27673.5,
+    "qqq": 659.510009765625,
+    "vix": 22.610000610351562,
+    "ratio": 41.9606974727109
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 2,
     "list": [
       {
-        "title": "FOMC Meeting Minutes",
-        "impact": 3,
-        "flag": "🔥",
-        "time_utc_str": "14:00",
-        "hhmm_utc": 1400
+        "title": "Philly Fed Manufacturing Index",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Unemployment Claims",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Up",
-    "diff": 60.5
+    "diff": 486.75
   },
   "cot": {
     "ok": false,
@@ -56,14 +63,14 @@
       "cw2": 760.0,
       "pw1": 680.0,
       "pw2": 600.0,
-      "max_pain": 685.0
+      "max_pain": 680.0
     },
     "nas100_strikes": {
-      "cw1": 29513,
-      "cw2": 31152,
-      "pw1": 27873,
-      "pw2": 24594,
-      "max_pain": 28078
+      "cw1": 30212,
+      "cw2": 31890,
+      "pw1": 28533,
+      "pw2": 25176,
+      "max_pain": 28533
     },
     "needs_manual_override": false
   },
