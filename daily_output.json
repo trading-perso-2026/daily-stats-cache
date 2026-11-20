@@ -1,52 +1,59 @@
 {
-  "generated_at": "2026-11-20T00:29:44.990806Z",
-  "prediction_date": "2026-11-19",
+  "generated_at": "2026-11-20T13:46:18.630898Z",
+  "prediction_date": "2026-11-20",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": 1,
-    "py_bias_strength": 43,
-    "py_confidence": 36,
+    "py_bias_strength": 47,
+    "py_confidence": 40,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 71.56,
-      "bear_prob": 28.44,
+      "bull_prob": 73.53,
+      "bear_prob": 26.47,
       "bias_label": "BULLISH",
-      "type_proba_max": 29.98
+      "type_proba_max": 34.74
     }
   },
   "prices": {
-    "nas100": 27014.5,
-    "qqq": 657.5800170898438,
-    "vix": 28.309999465942383,
-    "ratio": 41.08169241448994
+    "nas100": 26008.5,
+    "qqq": 645.0999755859375,
+    "vix": 31.0,
+    "ratio": 40.317006641298896
   },
   "news": {
     "ok": true,
-    "count": 2,
+    "count": 3,
     "list": [
       {
-        "title": "Philly Fed Manufacturing Index",
+        "title": "Revised UoM Consumer Sentiment",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       },
       {
-        "title": "Unemployment Claims",
+        "title": "Revised UoM Inflation Expectations",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
+      },
+      {
+        "title": "President Trump Speaks",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "12:00",
+        "hhmm_utc": 1200
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -182.75
+    "diff": -591.75
   },
   "cot": {
     "ok": false,
@@ -59,18 +66,18 @@
     "ok": true,
     "expiration": "2026-11-20",
     "qqq_strikes": {
-      "cw1": 720.0,
+      "cw1": 680.0,
       "cw2": 760.0,
-      "pw1": 680.0,
-      "pw2": 600.0,
-      "max_pain": 680.0
+      "pw1": 600.0,
+      "pw2": 640.0,
+      "max_pain": 670.0
     },
     "nas100_strikes": {
-      "cw1": 29579,
-      "cw2": 31222,
-      "pw1": 27936,
-      "pw2": 24649,
-      "max_pain": 27936
+      "cw1": 27416,
+      "cw2": 30641,
+      "pw1": 24190,
+      "pw2": 25803,
+      "max_pain": 27012
     },
     "needs_manual_override": false
   },
