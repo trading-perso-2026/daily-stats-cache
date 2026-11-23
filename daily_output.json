@@ -1,37 +1,52 @@
 {
-  "generated_at": "2026-11-22T16:34:24.529302Z",
-  "prediction_date": "2026-11-20",
+  "generated_at": "2026-11-23T15:36:02.775003Z",
+  "prediction_date": "2026-11-23",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": -1,
-    "py_bias_strength": 31,
-    "py_confidence": 32,
+    "py_bias": 0,
+    "py_bias_strength": 9,
+    "py_confidence": 28,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 34.13,
-      "bear_prob": 65.87,
-      "bias_label": "BEARISH",
-      "type_proba_max": 34.78
+      "bull_prob": 54.73,
+      "bear_prob": 45.27,
+      "bias_label": "NEUTRAL",
+      "type_proba_max": 47.4
     }
   },
   "prices": {
-    "nas100": 25126.5,
-    "qqq": 610.04248046875,
-    "vix": 35.88999938964844,
-    "ratio": 41.188115261568456
+    "nas100": 27086.75,
+    "qqq": 656.4000244140625,
+    "vix": 26.610000610351562,
+    "ratio": 41.265613943538575
   },
   "news": {
     "ok": true,
-    "count": 0,
-    "list": []
+    "count": 2,
+    "list": [
+      {
+        "title": "Flash Manufacturing PMI",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "09:45",
+        "hhmm_utc": 945
+      },
+      {
+        "title": "Flash Services PMI",
+        "impact": 1,
+        "flag": "🟠",
+        "time_utc_str": "09:45",
+        "hhmm_utc": 945
+      }
+    ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -1473.75
+    "bias": "Up",
+    "diff": 1962.75
   },
   "cot": {
     "ok": false,
@@ -42,20 +57,20 @@
   },
   "options": {
     "ok": true,
-    "expiration": "2026-12-04",
+    "expiration": "2026-11-27",
     "qqq_strikes": {
-      "cw1": 730.0,
-      "cw2": 725.0,
-      "pw1": 635.0,
-      "pw2": 610.0,
-      "max_pain": 675.0
+      "cw1": 700.0,
+      "cw2": 677.0,
+      "pw1": 640.0,
+      "pw2": 595.0,
+      "max_pain": 650.0
     },
     "nas100_strikes": {
-      "cw1": 30067,
-      "cw2": 29861,
-      "pw1": 26154,
-      "pw2": 25125,
-      "max_pain": 27802
+      "cw1": 28886,
+      "cw2": 27937,
+      "pw1": 26410,
+      "pw2": 24553,
+      "max_pain": 26823
     },
     "needs_manual_override": false
   },
