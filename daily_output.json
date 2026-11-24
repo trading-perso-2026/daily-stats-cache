@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T03:27:42.224324Z",
+  "generated_at": "2026-11-24T03:54:35.471463Z",
   "prediction_date": "2026-11-23",
   "ml": {
     "py_day_quality": 0,
@@ -80,7 +80,7 @@
     "error": "Session NY pas encore ouverte ou pas assez de données"
   },
   "postlunch": {
-    "generated_at": "2026-11-24T03:27:41.755219Z",
+    "generated_at": "2026-11-24T03:54:34.903488Z",
     "ok": false,
     "error": "Pas de données après NY open"
   }
