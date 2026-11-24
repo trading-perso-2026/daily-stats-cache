@@ -1,23 +1,5 @@
 {
-  "generated_at": "2026-11-20T21:54:25.365610Z",
-  "ok": true,
-  "prix_open_ny": 26321.0,
-  "prix_extreme": 26116.75,
-  "prix_actuel": 25313.0,
-  "mouvement_initial": -204.2,
-  "amplitude": 204.2,
-  "direction": -1,
-  "recuperation": 803.8,
-  "recuperation_pct": 393.5,
-  "judas_confirme": true,
-  "biais_ml_predit": 1,
-  "atr_daily": 1064.7,
-  "seuil_invalidation": 532.4,
-  "mouvement_total": -1008.0,
-  "scenario_holds": false,
-  "tv_update1_active": true,
-  "tv_update1_judas_confirmed": true,
-  "tv_update1_judas_dir": -1,
-  "tv_update1_judas_amp": 204,
-  "tv_update1_scenario_holds": false
+  "generated_at": "2026-11-24T01:31:24.373189Z",
+  "ok": false,
+  "error": "Session NY pas encore ouverte ou pas assez de données"
 }
