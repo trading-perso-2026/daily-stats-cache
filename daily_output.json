@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T01:41:24.344660Z",
+  "generated_at": "2026-11-24T01:46:27.183385Z",
   "prediction_date": "2026-11-23",
   "ml": {
     "py_day_quality": 0,
@@ -75,7 +75,7 @@
     "needs_manual_override": false
   },
   "judas": {
-    "generated_at": "2026-11-24T01:41:23.261568Z",
+    "generated_at": "2026-11-24T01:46:26.724271Z",
     "ok": false,
     "error": "Session NY pas encore ouverte ou pas assez de données"
   },
