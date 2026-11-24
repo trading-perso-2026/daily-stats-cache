@@ -1,52 +1,45 @@
 {
-  "generated_at": "2026-11-24T03:54:35.471463Z",
-  "prediction_date": "2026-11-23",
+  "generated_at": "2026-11-24T15:28:23.230968Z",
+  "prediction_date": "2026-11-24",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": -1,
-    "py_bias_strength": 32,
-    "py_confidence": 39,
+    "py_bias_strength": 26,
+    "py_confidence": 32,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 33.73,
-      "bear_prob": 66.27,
+      "bull_prob": 36.8,
+      "bear_prob": 63.2,
       "bias_label": "BEARISH",
-      "type_proba_max": 46.01
+      "type_proba_max": 39.57
     }
   },
   "prices": {
-    "nas100": 26837.25,
-    "qqq": 652.6199951171875,
-    "vix": 26.940000534057617,
-    "ratio": 41.12232263919676
+    "nas100": 26296.75,
+    "qqq": 634.239990234375,
+    "vix": 27.469999313354492,
+    "ratio": 41.46182896837266
   },
   "news": {
     "ok": true,
-    "count": 2,
+    "count": 1,
     "list": [
       {
-        "title": "Flash Manufacturing PMI",
+        "title": "CB Consumer Confidence",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "09:45",
-        "hhmm_utc": 945
-      },
-      {
-        "title": "Flash Services PMI",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "09:45",
-        "hhmm_utc": 945
+        "time_utc_str": "10:00",
+        "hhmm_utc": 1000
       }
     ]
   },
   "overnight": {
     "ok": true,
-    "bias": "Up",
-    "diff": 1711.75
+    "bias": "Down",
+    "diff": -512.75
   },
   "cot": {
     "ok": false,
@@ -60,17 +53,17 @@
     "expiration": "2026-11-27",
     "qqq_strikes": {
       "cw1": 700.0,
-      "cw2": 677.0,
-      "pw1": 640.0,
-      "pw2": 595.0,
-      "max_pain": 650.0
+      "cw2": 665.0,
+      "pw1": 550.0,
+      "pw2": 640.0,
+      "max_pain": 654.0
     },
     "nas100_strikes": {
-      "cw1": 28786,
-      "cw2": 27840,
-      "pw1": 26318,
-      "pw2": 24468,
-      "max_pain": 26730
+      "cw1": 29023,
+      "cw2": 27572,
+      "pw1": 22804,
+      "pw2": 26536,
+      "max_pain": 27116
     },
     "needs_manual_override": false
   },
