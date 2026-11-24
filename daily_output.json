@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-24T18:43:20.170829Z",
+  "generated_at": "2026-11-24T19:40:13.517913Z",
   "prediction_date": "2026-11-24",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": -1,
-    "py_bias_strength": 25,
-    "py_confidence": 32,
+    "py_bias_strength": 27,
+    "py_confidence": 33,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 37.41,
-      "bear_prob": 62.59,
+      "bull_prob": 36.1,
+      "bear_prob": 63.9,
       "bias_label": "BEARISH",
-      "type_proba_max": 40.13
+      "type_proba_max": 39.05
     }
   },
   "prices": {
-    "nas100": 26349.5,
-    "qqq": 639.0206298828125,
+    "nas100": 26310.25,
+    "qqq": 636.969970703125,
     "vix": 26.389999389648438,
-    "ratio": 41.23419302571207
+    "ratio": 41.30532240155245
   },
   "news": {
     "ok": true,
@@ -39,7 +39,7 @@
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -458.5
+    "diff": -502.25
   },
   "cot": {
     "ok": false,
@@ -49,23 +49,17 @@
     "error": "Toutes les URLs CFTC ont échoué (probablement weekend ou site down)"
   },
   "options": {
-    "ok": true,
-    "expiration": "2026-11-27",
+    "ok": false,
+    "expiration": null,
     "qqq_strikes": {
-      "cw1": 700.0,
-      "cw2": 665.0,
-      "pw1": 550.0,
-      "pw2": 640.0,
-      "max_pain": 654.0
+      "cw1": null,
+      "cw2": null,
+      "pw1": null,
+      "pw2": null,
+      "max_pain": null
     },
-    "nas100_strikes": {
-      "cw1": 28864,
-      "cw2": 27421,
-      "pw1": 22679,
-      "pw2": 26390,
-      "max_pain": 26967
-    },
-    "needs_manual_override": false
+    "nas100_strikes": {},
+    "needs_manual_override": true
   },
   "judas": {
     "generated_at": "2026-11-24T01:46:26.724271Z",
