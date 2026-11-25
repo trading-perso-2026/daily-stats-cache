@@ -1,45 +1,59 @@
 {
-  "generated_at": "2026-11-25T02:07:44.289526Z",
-  "prediction_date": "2026-11-24",
+  "generated_at": "2026-11-25T15:14:19.907050Z",
+  "prediction_date": "2026-11-25",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": -1,
-    "py_bias_strength": 27,
-    "py_confidence": 33,
+    "py_bias": 1,
+    "py_bias_strength": 16,
+    "py_confidence": 25,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 36.1,
-      "bear_prob": 63.9,
-      "bias_label": "BEARISH",
-      "type_proba_max": 39.05
+      "bull_prob": 58.36,
+      "bear_prob": 41.64,
+      "bias_label": "BULLISH",
+      "type_proba_max": 35.27
     }
   },
   "prices": {
-    "nas100": 26310.25,
-    "qqq": 636.969970703125,
-    "vix": 26.389999389648438,
-    "ratio": 41.30532240155245
+    "nas100": 25460.0,
+    "qqq": 614.739990234375,
+    "vix": 32.7599983215332,
+    "ratio": 41.41588379551028
   },
   "news": {
     "ok": true,
-    "count": 1,
+    "count": 3,
     "list": [
       {
-        "title": "CB Consumer Confidence",
+        "title": "Core PCE Price Index m/m",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Prelim GDP q/q",
+        "impact": 2,
+        "flag": "🔴",
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
+      },
+      {
+        "title": "Prelim GDP Price Index q/q",
         "impact": 1,
         "flag": "🟠",
-        "time_utc_str": "10:00",
-        "hhmm_utc": 1000
+        "time_utc_str": "08:30",
+        "hhmm_utc": 830
       }
     ]
   },
   "overnight": {
     "ok": true,
     "bias": "Down",
-    "diff": -502.25
+    "diff": -815.75
   },
   "cot": {
     "ok": false,
@@ -49,17 +63,23 @@
     "error": "Toutes les URLs CFTC ont échoué (probablement weekend ou site down)"
   },
   "options": {
-    "ok": false,
-    "expiration": null,
+    "ok": true,
+    "expiration": "2026-11-27",
     "qqq_strikes": {
-      "cw1": null,
-      "cw2": null,
-      "pw1": null,
-      "pw2": null,
-      "max_pain": null
+      "cw1": 700.0,
+      "cw2": 665.0,
+      "pw1": 550.0,
+      "pw2": 640.0,
+      "max_pain": 644.0
     },
-    "nas100_strikes": {},
-    "needs_manual_override": true
+    "nas100_strikes": {
+      "cw1": 28991,
+      "cw2": 27542,
+      "pw1": 22779,
+      "pw2": 26506,
+      "max_pain": 26672
+    },
+    "needs_manual_override": false
   },
   "judas": {
     "generated_at": "2026-11-24T23:34:38.230840Z",
