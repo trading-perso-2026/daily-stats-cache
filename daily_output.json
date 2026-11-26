@@ -1,59 +1,37 @@
 {
-  "generated_at": "2026-11-26T01:43:01.355991Z",
-  "prediction_date": "2026-11-25",
+  "generated_at": "2026-11-26T14:39:02.905313Z",
+  "prediction_date": "2026-11-26",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
-    "py_bias": 1,
-    "py_bias_strength": 12,
-    "py_confidence": 24,
+    "py_bias": -1,
+    "py_bias_strength": 46,
+    "py_confidence": 48,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 56.2,
-      "bear_prob": 43.8,
-      "bias_label": "BULLISH",
-      "type_proba_max": 36.48
+      "bull_prob": 26.71,
+      "bear_prob": 73.29,
+      "bias_label": "BEARISH",
+      "type_proba_max": 51.45
     }
   },
   "prices": {
-    "nas100": 25901.0,
-    "qqq": 632.114990234375,
-    "vix": 28.65999984741211,
-    "ratio": 40.975139650455766
+    "nas100": 26389.75,
+    "qqq": 633.8099975585938,
+    "vix": 27.149999618530273,
+    "ratio": 41.63668938901575
   },
   "news": {
     "ok": true,
-    "count": 3,
-    "list": [
-      {
-        "title": "Core PCE Price Index m/m",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Prelim GDP q/q",
-        "impact": 2,
-        "flag": "🔴",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      },
-      {
-        "title": "Prelim GDP Price Index q/q",
-        "impact": 1,
-        "flag": "🟠",
-        "time_utc_str": "08:30",
-        "hhmm_utc": 830
-      }
-    ]
+    "count": 0,
+    "list": []
   },
   "overnight": {
     "ok": true,
-    "bias": "Down",
-    "diff": -374.25
+    "bias": "Up",
+    "diff": 289.5
   },
   "cot": {
     "ok": false,
@@ -73,11 +51,11 @@
       "max_pain": 644.0
     },
     "nas100_strikes": {
-      "cw1": 28683,
-      "cw2": 27248,
-      "pw1": 22536,
-      "pw2": 26224,
-      "max_pain": 26388
+      "cw1": 29146,
+      "cw2": 27688,
+      "pw1": 22900,
+      "pw2": 26647,
+      "max_pain": 26814
     },
     "needs_manual_override": false
   },
