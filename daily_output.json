@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-26T14:39:02.905313Z",
+  "generated_at": "2026-11-26T17:35:53.669700Z",
   "prediction_date": "2026-11-26",
   "ml": {
     "py_day_quality": 0,
     "py_day_type": 4,
     "py_bias": -1,
-    "py_bias_strength": 46,
-    "py_confidence": 48,
+    "py_bias_strength": 27,
+    "py_confidence": 39,
     "py_first_move": 0,
     "py_first_amp_min": 30,
     "py_first_amp_max": 60,
     "meta": {
-      "bull_prob": 26.71,
-      "bear_prob": 73.29,
+      "bull_prob": 36.18,
+      "bear_prob": 63.82,
       "bias_label": "BEARISH",
-      "type_proba_max": 51.45
+      "type_proba_max": 52.03
     }
   },
   "prices": {
     "nas100": 26389.75,
     "qqq": 633.8099975585938,
-    "vix": 27.149999618530273,
+    "vix": 26.799999237060547,
     "ratio": 41.63668938901575
   },
   "news": {
