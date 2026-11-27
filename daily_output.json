@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T22:32:07.781532Z",
+  "generated_at": "2026-11-27T22:43:44.925765Z",
   "prediction_date": "2026-11-27",
   "ml": {
     "py_day_quality": 0,
@@ -60,7 +60,7 @@
     "needs_manual_override": false
   },
   "judas": {
-    "generated_at": "2026-11-27T22:32:07.340679Z",
+    "generated_at": "2026-11-27T22:43:44.289560Z",
     "ok": true,
     "prix_open_ny": 26580.75,
     "prix_extreme": 26226.0,
